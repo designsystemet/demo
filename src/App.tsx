@@ -1,5 +1,3 @@
-import "./App.css";
-
 // import "@digdir/designsystemet-theme/digdir.css";
 import "../build/theme.css";
 import "@digdir/designsystemet-css/index.css";
