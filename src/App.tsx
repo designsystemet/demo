@@ -17,7 +17,7 @@ import {
 function App() {
   return (
     <div className="components">
-      <div className="card shoppinglist" data-color="secondary">
+      <div className="card shoppinglist">
         <Fieldset>
           <Fieldset.Legend>Handleliste</Fieldset.Legend>
           <Checkbox label="En kilo poteter" value="potatos" />
@@ -35,8 +35,8 @@ function App() {
       <div className="card help">
         <Heading>Hva kan vi hjelpe deg med?</Heading>
         <div>
-          <Card data-color="primary">This is a card with a custom color.</Card>
-          <Card data-color="support1">
+          <Card>This is a card with a custom color.</Card>
+          <Card>
             <Heading>Skole og utdanning</Heading>
             <Paragraph>
               Most provide as with carried business are much better more the.
