@@ -17,7 +17,7 @@ import {
 function App() {
   return (
     <div className="components">
-      <div className="card shoppinglist">
+      <div className="card shoppinglist" data-color="accent">
         <Fieldset>
           <Fieldset.Legend>Handleliste</Fieldset.Legend>
           <Checkbox label="En kilo poteter" value="potatos" />
@@ -34,7 +34,7 @@ function App() {
       </div>
       <div className="card help">
         <div>
-          <Card>Dette er et kort</Card>
+          <Card data-color="brand1">Dette er et brand kort</Card>
           <Card>
             <Heading>
               <a href="#preview">Gå videre</a>
