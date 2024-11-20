@@ -24,7 +24,7 @@ function App() {
         </Fieldset>
       </div>
       <div className="card user">
-        <Heading data-size="md">Opprett ny bruker</Heading>
+        <Heading data-size="2xs">Opprett ny bruker</Heading>
         <Textfield label="Navn" placeholder="Ola Normann" />
         <Textfield type="email" label="E-post" placeholder="ola@norge.no" />
         <Link href="#">Glemt passord?</Link>
