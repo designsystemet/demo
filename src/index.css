@@ -1,3 +1,6 @@
+@import url("../build/theme.css");
+@import url("@digdir/designsystemet-css");
+
 @layer ds;
 
 :root {

@@ -1,6 +1,5 @@
 // import "@digdir/designsystemet-theme/digdir.css";
-import "../build/theme.css";
-import "@digdir/designsystemet-css/index.css";
+
 import {
   Button,
   Card,
@@ -15,7 +14,7 @@ import {
 function App() {
   return (
     <div className="components">
-      <div className="card shoppinglist" data-color="accent">
+      <div className="card shoppinglist">
         <Fieldset>
           <Fieldset.Legend>Handleliste</Fieldset.Legend>
           <Checkbox label="En kilo poteter" value="potatos" />
