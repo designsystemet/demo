@@ -6,19 +6,17 @@ import {
   Button,
   Card,
   Checkbox,
-  Divider,
   Fieldset,
   Heading,
   Link,
   Paragraph,
   Textfield,
-  Tooltip,
 } from "@digdir/designsystemet-react";
 
 function App() {
   return (
     <div className="components">
-      <div className="card shoppinglist">
+      <div className="card shoppinglist" data-color="brand2">
         <Fieldset>
           <Fieldset.Legend>Handleliste</Fieldset.Legend>
           <Checkbox label="En kilo poteter" value="potatos" />
@@ -36,10 +34,8 @@ function App() {
       <div className="card help">
         <Heading>Hva kan vi hjelpe deg med?</Heading>
         <div>
-          <Card data-color="accent">
-            Most provide as with carried business are much better more the.
-          </Card>
-          <Card>
+          <Card data-color="accent">This is a card with a custom color.</Card>
+          <Card data-color="brand1">
             <Heading>Skole og utdanning</Heading>
             <Paragraph>
               Most provide as with carried business are much better more the.
