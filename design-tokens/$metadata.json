@@ -12,10 +12,11 @@
     "primitives/modes/colors/contrast/theme",
     "themes/theme",
     "semantic/color",
-    "semantic/modes/main-color/accent",
-    "semantic/modes/support-color/brand1",
-    "semantic/modes/support-color/brand2",
-    "semantic/modes/support-color/brand3",
+    "semantic/modes/main-color/primary",
+    "semantic/modes/main-color/secondary",
+    "semantic/modes/support-color/support1",
+    "semantic/modes/support-color/support2",
+    "semantic/modes/support-color/support3",
     "semantic/style",
     "Figma/components"
   ]
