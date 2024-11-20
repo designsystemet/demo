@@ -1,6 +1,7 @@
 import "./App.css";
 
-import "@digdir/designsystemet-theme/digdir.css";
+// import "@digdir/designsystemet-theme/digdir.css";
+import "../build/theme.css";
 import "@digdir/designsystemet-css/index.css";
 import {
   Button,
@@ -16,7 +17,7 @@ import {
 function App() {
   return (
     <div className="components">
-      <div className="card shoppinglist" data-color="brand2">
+      <div className="card shoppinglist" data-color="secondary">
         <Fieldset>
           <Fieldset.Legend>Handleliste</Fieldset.Legend>
           <Checkbox label="En kilo poteter" value="potatos" />
@@ -34,8 +35,8 @@ function App() {
       <div className="card help">
         <Heading>Hva kan vi hjelpe deg med?</Heading>
         <div>
-          <Card data-color="accent">This is a card with a custom color.</Card>
-          <Card data-color="brand1">
+          <Card data-color="primary">This is a card with a custom color.</Card>
+          <Card data-color="support1">
             <Heading>Skole og utdanning</Heading>
             <Paragraph>
               Most provide as with carried business are much better more the.
