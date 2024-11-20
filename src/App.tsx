@@ -31,17 +31,15 @@ function App() {
         <Button>Opprett ny bruker</Button>
       </div>
       <div className="card help">
-        <div>
-          <Card data-color="brand1">Dette er et brand kort</Card>
-          <Card>
-            <Heading>
-              <a href="#preview">Gå videre</a>
-            </Heading>
-            <Paragraph>
-              Dette er et kort med lenke til en annen del av siden.
-            </Paragraph>
-          </Card>
-        </div>
+        <Card data-color="brand1">Dette er et brand kort</Card>
+        <Card>
+          <Heading>
+            <a href="#preview">Gå videre</a>
+          </Heading>
+          <Paragraph>
+            Dette er et kort med lenke til en annen del av siden.
+          </Paragraph>
+        </Card>
       </div>
     </div>
   );

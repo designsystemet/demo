@@ -41,7 +41,7 @@ h2 {
 .help {
   grid-column: span 4;
   display: grid;
-  gap: var(--ds-spacing-2);
+  gap: var(--ds-spacing-6);
 }
 
 .user {
