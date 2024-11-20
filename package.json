@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "designsystemet": "designsystemet"
+    "designsystemet": "designsystemet",
+    "create:tokens": "designsystemet tokens create -m primary:#007682 secondary:#ff0000 -n #003333 -s support1:#12404f support2:#0054a6 support3:#942977"
   },
   "dependencies": {
     "@digdir/designsystemet": "file:../packages/digdir-designsystemet-1.0.0-next.35.tgz",
