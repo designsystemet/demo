@@ -33,21 +33,14 @@ function App() {
         <Button>Opprett ny bruker</Button>
       </div>
       <div className="card help">
-        <Heading>Hva kan vi hjelpe deg med?</Heading>
         <div>
-          <Card>This is a card with a custom color.</Card>
-          <Card>
-            <Heading>Skole og utdanning</Heading>
-            <Paragraph>
-              Most provide as with carried business are much better more the.
-            </Paragraph>
-          </Card>
+          <Card>Dette er et kort</Card>
           <Card>
             <Heading>
-              <a href="#preview">Mat og helse</a>
+              <a href="#preview">Gå videre</a>
             </Heading>
             <Paragraph>
-              Lenke til artikkel om mat og helse, der du kan lese mer om alt.
+              Dette er et kort med lenke til en annen del av siden.
             </Paragraph>
           </Card>
         </div>
