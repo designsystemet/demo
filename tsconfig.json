@@ -2,7 +2,7 @@
   "files": [],
   "compilerOptions": {
     "types": [
-      "./declarations.d.ts"
+      "@digdir/designsystemet-react/react-types.d.ts"
     ],
   },
   "references": [

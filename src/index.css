@@ -1,6 +1,6 @@
-@import url("@digdir/designsystemet-theme");
+@import url("../build/theme.css");
+/* @import url("@digdir/designsystemet-theme"); */
 @import url("@digdir/designsystemet-css");
-/* @import url("../build/theme.css"); */
 
 @layer ds;
 
