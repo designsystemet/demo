@@ -1,98 +1,86 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Designsystemet HTML</title>
-    <link rel="stylesheet" href="https://altinncdn.no/fonts/inter/inter.css" />
-    <link rel="stylesheet" href="src/index.css" />
-    <link rel="stylesheet" href="build/theme.css" />
-    <link
-      rel="stylesheet"
-      href="node_modules/@digdir/designsystemet-css/dist/src/index.css"
-    />
-  </head>
-  <body>
-    <div class="components">
-      <div class="card shoppinglist">
-        <fieldset class="ds-fieldset">
-          <legend class="ds-label" data-weight="medium">Handleliste</legend>
-          <div class="ds-field">
-            <input
-              class="ds-input"
-              type="checkbox"
-              value="potatos"
-              id="potatos"
-            />
-            <label class="ds-label" data-weight="regular" for="potatos"
-              >En kilo poteter</label
-            >
-          </div>
-          <div class="ds-field">
-            <input
-              class="ds-input"
-              type="checkbox"
-              value="farris"
-              id="farris"
-            />
-            <label class="ds-label" data-weight="regular" for="farris"
-              >To liter Farris</label
-            >
-          </div>
-          <div class="ds-field">
-            <input
-              class="ds-input"
-              type="checkbox"
-              value="sms"
-              checked=""
-            /><label class="ds-label" data-weight="regular" for=":m3ozl64q40v"
-              >Blomkål</label
-            >
-          </div>
-        </fieldset>
-      </div>
-      <div class="card user">
-        <h2 class="ds-heading" data-size="2xs">Opprett ny bruker</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Designsystemet HTML</title>
+  <link rel="stylesheet" href="https://altinncdn.no/fonts/inter/inter.css" />
+  <link rel="stylesheet" href="src/index.css" />
+  <link rel="stylesheet" href="build/theme.css" />
+  <link rel="stylesheet" href="node_modules/@digdir/designsystemet-css/dist/src/index.css" />
+  <link rel="stylesheet" href="node_modules/@digdir/designsystemet-theme/brand/altinn.css" />
+</head>
+
+<body>
+  <div class="components">
+    <div class="card shoppinglist">
+      <fieldset class="ds-fieldset">
+        <legend class="ds-label" data-weight="medium">Handleliste</legend>
         <div class="ds-field">
-          <label class="ds-label" data-weight="medium" for=":m3ozl64qce4"
-            >Navn</label
-          >
-          <input
-            class="ds-input"
-            type="text"
-            aria-invalid="false"
-            placeholder="Ola Normann"
-            id=":m3ozl64qce4"
-          />
+          <input class="ds-input" type="checkbox" value="epost" id=":m3yu85qn5gc" />
+          <label class="ds-label" data-weight="regular" for=":m3yu85qn5gc">En kilo poteter</label>
         </div>
         <div class="ds-field">
-          <label class="ds-label" data-weight="medium" for=":m3ozl64qg7n"
-            >E-post</label
-          >
-          <input
-            class="ds-input"
-            type="email"
-            aria-invalid="false"
-            placeholder="ola@norge.no"
-            id=":m3ozl64qg7n"
-          />
+          <input class="ds-input" type="checkbox" value="telefon" id=":m3yu85qnshk" />
+          <label class="ds-label" data-weight="regular" for=":m3yu85qnshk">To liter Farris</label>
         </div>
-        <a class="ds-link" href="#">Glemt passord?</a
-        ><button class="ds-button" data-variant="primary" type="button">
-          Opprett ny bruker
-        </button>
+        <div class="ds-field">
+          <input class="ds-input" type="checkbox" value="sms" checked="" id=":m3yu85qn4gn" />
+          <label class="ds-label" data-weight="regular" for=":m3yu85qn4gn">Blomkål</label>
+        </div>
+        <div class="ds-field">
+          <input class="ds-input" type="checkbox" value="sms" checked="" id=":m3yu85qnawi" />
+          <label class="ds-label" data-weight="regular" for=":m3yu85qnawi">Pizza</label>
+        </div>
+        <div class="ds-field">
+          <input class="ds-input" type="checkbox" value="sms" checked="" id=":m3yu85qn3c8" />
+          <label class="ds-label" data-weight="regular" for=":m3yu85qn3c8">Tre liter lettmelk</label>
+        </div>
+        <hr aria-hidden="true" class="ds-divider" />
+        <div class="ds-field">
+          <input class="ds-input" type="checkbox" value="sms" id=":m3yu85qnbds" />
+          <label class="ds-label" data-weight="regular" for=":m3yu85qnbds">2kg smågodt</label>
+        </div>
+        <div class="ds-field">
+          <input class="ds-input" type="checkbox" value="sms" id=":m3yu85qnnie" />
+          <label class="ds-label" data-weight="regular" for=":m3yu85qnnie">10 poser med Smash</label>
+        </div>
+      </fieldset>
+    </div>
+    <div class="card user">
+      <h2 class="ds-heading" data-size="2xs">Opprett ny bruker</h2>
+      <div class="ds-field">
+        <label class="ds-label" data-weight="medium" for=":m3ozl64qce4">Navn</label>
+        <input class="ds-input" type="text" aria-invalid="false" placeholder="Ola Normann" id=":m3ozl64qce4" />
       </div>
-      <div class="card help" data-size="lg">
-        <div class="ds-card" data-color="brand1">
-          <p class="ds-paragraph">Dette er et brand kort</p>
-        </div>
-        <div class="ds-card">
-          <h2 class="ds-heading"><a href="#preview">Gå videre</a></h2>
-          <p class="ds-paragraph" data-variant="default">
-            Dette er et kort med lenke til en annen del av siden.
-          </p>
-        </div>
+      <div class="ds-field">
+        <label class="ds-label" data-weight="medium" for=":m3ozl64qg7n">E-post</label>
+        <input class="ds-input" type="email" aria-invalid="false" placeholder="ola@norge.no" id=":m3ozl64qg7n" />
+      </div>
+      <a class="ds-link" href="#">Glemt passord?</a><button class="ds-button" data-variant="primary" type="button">
+        Opprett ny bruker
+      </button>
+    </div>
+    <div class="card help" data-size="lg">
+      <div class="ds-card" data-color="brand1">
+        <p class="ds-paragraph">Dette er et brand kort</p>
+      </div>
+      <div class="ds-card">
+        <h2 class="ds-heading"><a href="#preview">Gå videre</a></h2>
+        <p class="ds-paragraph" data-variant="default">
+          Dette er et kort med lenke til en annen del av siden.
+        </p>
       </div>
     </div>
-  </body>
+    <div class="card alerts">
+      <h2 class="ds-heading" data-size="2xs">Advarsler</h2>
+      <div class="ds-alert" data-color="success">success</div>
+      <div class="ds-alert" data-color="info">info</div>
+      <div class="ds-alert" data-color="danger">danger</div>
+      <div class="ds-alert" data-color="warning">warning</div>
+    </div>
+  </div>
+</body>
+
 </html>

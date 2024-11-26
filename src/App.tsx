@@ -9,6 +9,8 @@ import {
   Link,
   Paragraph,
   Textfield,
+  Divider,
+  Alert,
 } from "@digdir/designsystemet-react";
 
 function App() {
@@ -17,9 +19,14 @@ function App() {
       <div className="card shoppinglist">
         <Fieldset>
           <Fieldset.Legend>Handleliste</Fieldset.Legend>
-          <Checkbox label="En kilo poteter" value="potatos" />
-          <Checkbox label="To liter Farris" value="farris" />
-          <Checkbox label="Blomkål" value="blomkol" defaultChecked />
+          <Checkbox label="En kilo poteter" value="epost" />
+          <Checkbox label="To liter Farris" value="telefon" />
+          <Checkbox label="Blomkål" value="sms" defaultChecked />
+          <Checkbox label="Pizza" value="sms" defaultChecked />
+          <Checkbox label="Tre liter lettmelk" value="sms" defaultChecked />
+          <Divider />
+          <Checkbox label="2kg smågodt" value="sms" />
+          <Checkbox label="10 poser med Smash" value="sms" />
         </Fieldset>
       </div>
       <div className="card user">
@@ -30,7 +37,8 @@ function App() {
         <Button>Opprett ny bruker</Button>
       </div>
       <div className="card help" data-size="lg">
-        <Card data-color="brand1">Dette er et brand kort</Card>
+        <Heading data-size="2xs">Emner</Heading>
+        <Card data-color="accent">Dette er et brand kort</Card>
         <Card>
           <Heading>
             <a href="#preview">Gå videre</a>
@@ -39,6 +47,13 @@ function App() {
             Dette er et kort med lenke til en annen del av siden.
           </Paragraph>
         </Card>
+      </div>
+      <div className="card alerts">
+        <Heading data-size="2xs">Advarsler</Heading>
+        <Alert data-color="success">success</Alert>
+        <Alert data-color="info">info</Alert>
+        <Alert data-color="danger">danger</Alert>
+        <Alert data-color="warning">warning</Alert>
       </div>
     </div>
   );

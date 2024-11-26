@@ -1,5 +1,6 @@
-@import url("../build/theme.css");
+@import url("@digdir/designsystemet-theme");
 @import url("@digdir/designsystemet-css");
+/* @import url("../build/theme.css"); */
 
 @layer ds;
 
@@ -38,8 +39,9 @@ body {
   grid-column: span 2;
 }
 
+.alerts,
 .help {
-  grid-column: span 4;
+  grid-column: span 2;
   display: grid;
   gap: var(--ds-spacing-6);
 }
@@ -50,9 +52,3 @@ body {
   gap: var(--ds-spacing-2);
 }
 
-.helpCards {
-  grid-column: 1 / 6;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--ds-spacing-5);
-}
