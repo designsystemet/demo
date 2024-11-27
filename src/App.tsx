@@ -10,7 +10,7 @@ import {
   Paragraph,
   Textfield,
   Divider,
-  Alert,
+  Radio,
 } from "@digdir/designsystemet-react";
 
 function App() {
@@ -19,14 +19,16 @@ function App() {
       <div className="card shoppinglist">
         <Fieldset>
           <Fieldset.Legend>Handleliste</Fieldset.Legend>
-          <Checkbox label="En kilo poteter" value="epost" />
-          <Checkbox label="To liter Farris" value="telefon" />
-          <Checkbox label="Blomkål" value="sms" defaultChecked />
-          <Checkbox label="Pizza" value="sms" defaultChecked />
-          <Checkbox label="Tre liter lettmelk" value="sms" defaultChecked />
-          <Divider />
-          <Checkbox label="2kg smågodt" value="sms" />
-          <Checkbox label="10 poser med Smash" value="sms" />
+          <Checkbox label="Mat" value="mat" />
+          <Checkbox label="Leker" value="leker" />
+          <Checkbox label="Godbiter" value="godbiter" defaultChecked />
+          <Checkbox label="Kattesand" value="kattesand" defaultChecked />
+        </Fieldset>
+        <Divider />
+        <Fieldset name="levering">
+          <Fieldset.Legend>Ønsker du levering?</Fieldset.Legend>
+          <Radio label="Ja" value="epost" name="levering" />
+          <Radio label="Nei" value="telefon" name="levering" defaultChecked />
         </Fieldset>
       </div>
       <div className="card user">
@@ -36,24 +38,57 @@ function App() {
         <Link href="#">Glemt passord?</Link>
         <Button>Opprett ny bruker</Button>
       </div>
-      <div className="card help" data-size="lg">
-        <Heading data-size="2xs">Emner</Heading>
-        <Card data-color="accent">Dette er et brand kort</Card>
+      <div className="card help">
+        <Heading data-size="2xs">Dyr</Heading>
         <Card>
-          <Heading>
-            <a href="#preview">Gå videre</a>
-          </Heading>
+          <Heading>Tamkatt 🐈</Heading>
           <Paragraph>
-            Dette er et kort med lenke til en annen del av siden.
+            Tamkatt er et lite{" "}
+            <Link
+              href="https://no.wikipedia.org/wiki/Rovpattedyr"
+              target="_blank"
+            >
+              rovpattedyr
+            </Link>
+            i{" "}
+            <Link
+              href="https://no.wikipedia.org/wiki/Kattefamilien"
+              target="_blank"
+            >
+              kattefamilien{" "}
+            </Link>
+            og inngår i tamkattlinjen . Tamkatten deles videre inn som enten
+            huskatter (naturlig seleksjon) eller rasekatter (selektiv
+            utvelgelse).
           </Paragraph>
         </Card>
-      </div>
-      <div className="card alerts">
-        <Heading data-size="2xs">Advarsler</Heading>
-        <Alert data-color="success">success</Alert>
-        <Alert data-color="info">info</Alert>
-        <Alert data-color="danger">danger</Alert>
-        <Alert data-color="warning">warning</Alert>
+        <Card>
+          <Heading>Frosk 🐸</Heading>
+          <Paragraph>
+            Frosker tilhører ordenen {""}
+            <Link
+              href="https://no.wikipedia.org/wiki/Springpadder"
+              target="_blank"
+            >
+              haleløse amfibier
+            </Link>
+            . På norsk er begrepet frosk ikke en systematisk enhet, men en
+            fellesbetegnelse på haleløse padder som er relativt slanke og
+            langlemmete og har fuktig hud, i motsetning til uttrykket padde, som
+            brukes om mer tungbygde haleløse padder med tørrere hud som krabber
+            mer enn de hopper.
+          </Paragraph>
+        </Card>
+        <Card>
+          <Heading>Hund 🐶</Heading>
+          <Paragraph>
+            Hund eller tamhund (Canis familiaris eller Canis lupus familiaris)
+            er eit mellomstort domestisert rovpattedyr i hundefamilien, som har
+            følgt mennesket og bidrege til menneskeleg suksess gjennom fleire
+            tusen år. Både hund og katt er rekna som viktige kjæledyr, sjølv om
+            begge er rovdyr.
+          </Paragraph>
+        </Card>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
-@import url("../build/theme.css");
-/* @import url("@digdir/designsystemet-theme"); */
+/* @import url("../build/theme.css"); */
+@import url("@digdir/designsystemet-theme");
 @import url("@digdir/designsystemet-css");
 
 @layer ds;
@@ -39,9 +39,8 @@ body {
   grid-column: span 2;
 }
 
-.alerts,
 .help {
-  grid-column: span 2;
+  grid-column: span 4;
   display: grid;
   gap: var(--ds-spacing-6);
 }
