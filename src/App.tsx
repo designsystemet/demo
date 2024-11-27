@@ -18,7 +18,7 @@ import MyField from "./MyField";
 function App() {
   return (
     <>
-      <MyField />
+      {/* <MyField /> */}
       <div className="components">
         <div className="card shoppinglist">
           <Fieldset>

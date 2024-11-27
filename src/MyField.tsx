@@ -3,6 +3,7 @@ import {
   Label,
   Input,
   ValidationMessage,
+  Textarea,
 } from "@digdir/designsystemet-react";
 
 function MyField() {
@@ -10,7 +11,8 @@ function MyField() {
     <Field>
       <Label>Label</Label>
       <Field.Description>Beskrivelse</Field.Description>
-      <Input />
+      <Textarea></Textarea>
+      <Field.Counter limit={10} />
       <ValidationMessage>Validerings melding</ValidationMessage>
     </Field>
   );

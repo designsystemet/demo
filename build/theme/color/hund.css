@@ -1,0 +1,24 @@
+/**
+ * These files are generated from design tokens defind using Token Studio
+ */
+
+@layer ds.theme.color {
+[data-color="hund"] {
+  --ds-color-background-default: var(--ds-color-hund-background-default);
+  --ds-color-background-subtle: var(--ds-color-hund-background-subtle);
+  --ds-color-surface-default: var(--ds-color-hund-surface-default);
+  --ds-color-surface-hover: var(--ds-color-hund-surface-hover);
+  --ds-color-surface-active: var(--ds-color-hund-surface-active);
+  --ds-color-border-subtle: var(--ds-color-hund-border-subtle);
+  --ds-color-border-default: var(--ds-color-hund-border-default);
+  --ds-color-border-strong: var(--ds-color-hund-border-strong);
+  --ds-color-base-default: var(--ds-color-hund-base-default);
+  --ds-color-base-hover: var(--ds-color-hund-base-hover);
+  --ds-color-base-active: var(--ds-color-hund-base-active);
+  --ds-color-text-subtle: var(--ds-color-hund-text-subtle);
+  --ds-color-text-default: var(--ds-color-hund-text-default);
+  --ds-color-contrast-default: var(--ds-color-hund-contrast-default);
+  --ds-color-contrast-subtle: var(--ds-color-hund-contrast-subtle);
+}
+
+}
