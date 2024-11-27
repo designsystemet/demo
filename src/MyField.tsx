@@ -11,7 +11,7 @@ function MyField() {
     <Field>
       <Label>Label</Label>
       <Field.Description>Beskrivelse</Field.Description>
-      <Textarea></Textarea>
+      <Textarea />
       <Field.Counter limit={10} />
       <ValidationMessage>Validerings melding</ValidationMessage>
     </Field>
