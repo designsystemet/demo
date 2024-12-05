@@ -3,63 +3,63 @@
     "support": {
       "background-default": {
         "$type": "color",
-        "$value": "{color.katt.background-default}"
+        "$value": "{color.brand1.background-default}"
       },
       "background-subtle": {
         "$type": "color",
-        "$value": "{color.katt.background-subtle}"
+        "$value": "{color.brand1.background-subtle}"
       },
       "surface-default": {
         "$type": "color",
-        "$value": "{color.katt.surface-default}"
+        "$value": "{color.brand1.surface-default}"
       },
       "surface-hover": {
         "$type": "color",
-        "$value": "{color.katt.surface-hover}"
+        "$value": "{color.brand1.surface-hover}"
       },
       "surface-active": {
         "$type": "color",
-        "$value": "{color.katt.surface-active}"
+        "$value": "{color.brand1.surface-active}"
       },
       "border-subtle": {
         "$type": "color",
-        "$value": "{color.katt.border-subtle}"
+        "$value": "{color.brand1.border-subtle}"
       },
       "border-default": {
         "$type": "color",
-        "$value": "{color.katt.border-default}"
+        "$value": "{color.brand1.border-default}"
       },
       "border-strong": {
         "$type": "color",
-        "$value": "{color.katt.border-strong}"
+        "$value": "{color.brand1.border-strong}"
       },
       "base-default": {
         "$type": "color",
-        "$value": "{color.katt.base-default}"
+        "$value": "{color.brand1.base-default}"
       },
       "base-hover": {
         "$type": "color",
-        "$value": "{color.katt.base-hover}"
+        "$value": "{color.brand1.base-hover}"
       },
       "base-active": {
         "$type": "color",
-        "$value": "{color.katt.base-active}"
+        "$value": "{color.brand1.base-active}"
       },
       "text-subtle": {
         "$type": "color",
-        "$value": "{color.katt.text-subtle}"
+        "$value": "{color.brand1.text-subtle}"
       },
       "text-default": {
         "$type": "color",
-        "$value": "{color.katt.text-default}"
+        "$value": "{color.brand1.text-default}"
       },
       "contrast-default": {
         "$type": "color",
-        "$value": "{color.katt.contrast-default}"
+        "$value": "{color.brand1.contrast-default}"
       },
       "contrast-subtle": {
         "$type": "color",
-        "$value": "{color.katt.contrast-subtle}"
+        "$value": "{color.brand1.contrast-subtle}"
       }
     }
   }

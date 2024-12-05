@@ -1,334 +1,334 @@
 {
   "color": {
-    "butikken": {
+    "accent": {
       "1": {
         "$type": "color",
-        "$value": "{theme.butikken.1}"
+        "$value": "{innbygger-portal.accent.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{theme.butikken.2}"
+        "$value": "{innbygger-portal.accent.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{theme.butikken.3}"
+        "$value": "{innbygger-portal.accent.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{theme.butikken.4}"
+        "$value": "{innbygger-portal.accent.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{theme.butikken.5}"
+        "$value": "{innbygger-portal.accent.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{theme.butikken.6}"
+        "$value": "{innbygger-portal.accent.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{theme.butikken.7}"
+        "$value": "{innbygger-portal.accent.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{theme.butikken.8}"
+        "$value": "{innbygger-portal.accent.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{theme.butikken.9}"
+        "$value": "{innbygger-portal.accent.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{theme.butikken.10}"
+        "$value": "{innbygger-portal.accent.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{theme.butikken.11}"
+        "$value": "{innbygger-portal.accent.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{theme.butikken.12}"
+        "$value": "{innbygger-portal.accent.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{theme.butikken.13}"
+        "$value": "{innbygger-portal.accent.13}"
       },
       "contrast-1": {
         "$type": "color",
-        "$value": "{theme.butikken.contrast-1}"
+        "$value": "{innbygger-portal.accent.contrast-1}"
       },
       "contrast-2": {
         "$type": "color",
-        "$value": "{theme.butikken.contrast-2}"
+        "$value": "{innbygger-portal.accent.contrast-2}"
       }
     },
     "neutral": {
       "1": {
         "$type": "color",
-        "$value": "{theme.neutral.1}"
+        "$value": "{innbygger-portal.neutral.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{theme.neutral.2}"
+        "$value": "{innbygger-portal.neutral.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{theme.neutral.3}"
+        "$value": "{innbygger-portal.neutral.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{theme.neutral.4}"
+        "$value": "{innbygger-portal.neutral.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{theme.neutral.5}"
+        "$value": "{innbygger-portal.neutral.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{theme.neutral.6}"
+        "$value": "{innbygger-portal.neutral.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{theme.neutral.7}"
+        "$value": "{innbygger-portal.neutral.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{theme.neutral.8}"
+        "$value": "{innbygger-portal.neutral.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{theme.neutral.9}"
+        "$value": "{innbygger-portal.neutral.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{theme.neutral.10}"
+        "$value": "{innbygger-portal.neutral.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{theme.neutral.11}"
+        "$value": "{innbygger-portal.neutral.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{theme.neutral.12}"
+        "$value": "{innbygger-portal.neutral.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{theme.neutral.13}"
+        "$value": "{innbygger-portal.neutral.13}"
       },
       "contrast-1": {
         "$type": "color",
-        "$value": "{theme.neutral.contrast-1}"
+        "$value": "{innbygger-portal.neutral.contrast-1}"
       },
       "contrast-2": {
         "$type": "color",
-        "$value": "{theme.neutral.contrast-2}"
+        "$value": "{innbygger-portal.neutral.contrast-2}"
       }
     },
-    "katt": {
+    "brand1": {
       "1": {
         "$type": "color",
-        "$value": "{theme.katt.1}"
+        "$value": "{innbygger-portal.brand1.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{theme.katt.2}"
+        "$value": "{innbygger-portal.brand1.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{theme.katt.3}"
+        "$value": "{innbygger-portal.brand1.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{theme.katt.4}"
+        "$value": "{innbygger-portal.brand1.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{theme.katt.5}"
+        "$value": "{innbygger-portal.brand1.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{theme.katt.6}"
+        "$value": "{innbygger-portal.brand1.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{theme.katt.7}"
+        "$value": "{innbygger-portal.brand1.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{theme.katt.8}"
+        "$value": "{innbygger-portal.brand1.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{theme.katt.9}"
+        "$value": "{innbygger-portal.brand1.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{theme.katt.10}"
+        "$value": "{innbygger-portal.brand1.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{theme.katt.11}"
+        "$value": "{innbygger-portal.brand1.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{theme.katt.12}"
+        "$value": "{innbygger-portal.brand1.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{theme.katt.13}"
+        "$value": "{innbygger-portal.brand1.13}"
       },
       "contrast-1": {
         "$type": "color",
-        "$value": "{theme.katt.contrast-1}"
+        "$value": "{innbygger-portal.brand1.contrast-1}"
       },
       "contrast-2": {
         "$type": "color",
-        "$value": "{theme.katt.contrast-2}"
+        "$value": "{innbygger-portal.brand1.contrast-2}"
       }
     },
-    "hund": {
+    "brand2": {
       "1": {
         "$type": "color",
-        "$value": "{theme.hund.1}"
+        "$value": "{innbygger-portal.brand2.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{theme.hund.2}"
+        "$value": "{innbygger-portal.brand2.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{theme.hund.3}"
+        "$value": "{innbygger-portal.brand2.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{theme.hund.4}"
+        "$value": "{innbygger-portal.brand2.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{theme.hund.5}"
+        "$value": "{innbygger-portal.brand2.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{theme.hund.6}"
+        "$value": "{innbygger-portal.brand2.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{theme.hund.7}"
+        "$value": "{innbygger-portal.brand2.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{theme.hund.8}"
+        "$value": "{innbygger-portal.brand2.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{theme.hund.9}"
+        "$value": "{innbygger-portal.brand2.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{theme.hund.10}"
+        "$value": "{innbygger-portal.brand2.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{theme.hund.11}"
+        "$value": "{innbygger-portal.brand2.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{theme.hund.12}"
+        "$value": "{innbygger-portal.brand2.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{theme.hund.13}"
+        "$value": "{innbygger-portal.brand2.13}"
       },
       "contrast-1": {
         "$type": "color",
-        "$value": "{theme.hund.contrast-1}"
+        "$value": "{innbygger-portal.brand2.contrast-1}"
       },
       "contrast-2": {
         "$type": "color",
-        "$value": "{theme.hund.contrast-2}"
+        "$value": "{innbygger-portal.brand2.contrast-2}"
       }
     },
-    "frosk": {
+    "brand3": {
       "1": {
         "$type": "color",
-        "$value": "{theme.frosk.1}"
+        "$value": "{innbygger-portal.brand3.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{theme.frosk.2}"
+        "$value": "{innbygger-portal.brand3.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{theme.frosk.3}"
+        "$value": "{innbygger-portal.brand3.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{theme.frosk.4}"
+        "$value": "{innbygger-portal.brand3.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{theme.frosk.5}"
+        "$value": "{innbygger-portal.brand3.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{theme.frosk.6}"
+        "$value": "{innbygger-portal.brand3.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{theme.frosk.7}"
+        "$value": "{innbygger-portal.brand3.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{theme.frosk.8}"
+        "$value": "{innbygger-portal.brand3.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{theme.frosk.9}"
+        "$value": "{innbygger-portal.brand3.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{theme.frosk.10}"
+        "$value": "{innbygger-portal.brand3.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{theme.frosk.11}"
+        "$value": "{innbygger-portal.brand3.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{theme.frosk.12}"
+        "$value": "{innbygger-portal.brand3.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{theme.frosk.13}"
+        "$value": "{innbygger-portal.brand3.13}"
       },
       "contrast-1": {
         "$type": "color",
-        "$value": "{theme.frosk.contrast-1}"
+        "$value": "{innbygger-portal.brand3.contrast-1}"
       },
       "contrast-2": {
         "$type": "color",
-        "$value": "{theme.frosk.contrast-2}"
+        "$value": "{innbygger-portal.brand3.contrast-2}"
       }
     }
   },
   "font": {
     "family": {
       "$type": "fontFamilies",
-      "$value": "{theme.main}"
+      "$value": "{innbygger-portal.main}"
     }
   },
   "font-weight": {
     "medium": {
       "$type": "fontWeights",
-      "$value": "{theme.bold}"
+      "$value": "{innbygger-portal.bold}"
     },
     "semibold": {
       "$type": "fontWeights",
-      "$value": "{theme.extra-bold}"
+      "$value": "{innbygger-portal.extra-bold}"
     },
     "regular": {
       "$type": "fontWeights",
-      "$value": "{theme.regular}"
+      "$value": "{innbygger-portal.regular}"
     }
   },
   "border-radius": {

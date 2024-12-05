@@ -1,5 +1,5 @@
 {
-  "theme": {
+  "innbygger-portal": {
     "main": {
       "$type": "fontFamilies",
       "$value": "Inter"

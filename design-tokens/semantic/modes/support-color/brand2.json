@@ -3,63 +3,63 @@
     "support": {
       "background-default": {
         "$type": "color",
-        "$value": "{color.frosk.background-default}"
+        "$value": "{color.brand2.background-default}"
       },
       "background-subtle": {
         "$type": "color",
-        "$value": "{color.frosk.background-subtle}"
+        "$value": "{color.brand2.background-subtle}"
       },
       "surface-default": {
         "$type": "color",
-        "$value": "{color.frosk.surface-default}"
+        "$value": "{color.brand2.surface-default}"
       },
       "surface-hover": {
         "$type": "color",
-        "$value": "{color.frosk.surface-hover}"
+        "$value": "{color.brand2.surface-hover}"
       },
       "surface-active": {
         "$type": "color",
-        "$value": "{color.frosk.surface-active}"
+        "$value": "{color.brand2.surface-active}"
       },
       "border-subtle": {
         "$type": "color",
-        "$value": "{color.frosk.border-subtle}"
+        "$value": "{color.brand2.border-subtle}"
       },
       "border-default": {
         "$type": "color",
-        "$value": "{color.frosk.border-default}"
+        "$value": "{color.brand2.border-default}"
       },
       "border-strong": {
         "$type": "color",
-        "$value": "{color.frosk.border-strong}"
+        "$value": "{color.brand2.border-strong}"
       },
       "base-default": {
         "$type": "color",
-        "$value": "{color.frosk.base-default}"
+        "$value": "{color.brand2.base-default}"
       },
       "base-hover": {
         "$type": "color",
-        "$value": "{color.frosk.base-hover}"
+        "$value": "{color.brand2.base-hover}"
       },
       "base-active": {
         "$type": "color",
-        "$value": "{color.frosk.base-active}"
+        "$value": "{color.brand2.base-active}"
       },
       "text-subtle": {
         "$type": "color",
-        "$value": "{color.frosk.text-subtle}"
+        "$value": "{color.brand2.text-subtle}"
       },
       "text-default": {
         "$type": "color",
-        "$value": "{color.frosk.text-default}"
+        "$value": "{color.brand2.text-default}"
       },
       "contrast-default": {
         "$type": "color",
-        "$value": "{color.frosk.contrast-default}"
+        "$value": "{color.brand2.contrast-default}"
       },
       "contrast-subtle": {
         "$type": "color",
-        "$value": "{color.frosk.contrast-subtle}"
+        "$value": "{color.brand2.contrast-subtle}"
       }
     }
   }

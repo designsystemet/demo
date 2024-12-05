@@ -1,65 +1,65 @@
 {
   "color": {
-    "main": {
+    "support": {
       "background-default": {
         "$type": "color",
-        "$value": "{color.butikken.background-default}"
+        "$value": "{color.brand3.background-default}"
       },
       "background-subtle": {
         "$type": "color",
-        "$value": "{color.butikken.background-subtle}"
+        "$value": "{color.brand3.background-subtle}"
       },
       "surface-default": {
         "$type": "color",
-        "$value": "{color.butikken.surface-default}"
+        "$value": "{color.brand3.surface-default}"
       },
       "surface-hover": {
         "$type": "color",
-        "$value": "{color.butikken.surface-hover}"
+        "$value": "{color.brand3.surface-hover}"
       },
       "surface-active": {
         "$type": "color",
-        "$value": "{color.butikken.surface-active}"
+        "$value": "{color.brand3.surface-active}"
       },
       "border-subtle": {
         "$type": "color",
-        "$value": "{color.butikken.border-subtle}"
+        "$value": "{color.brand3.border-subtle}"
       },
       "border-default": {
         "$type": "color",
-        "$value": "{color.butikken.border-default}"
+        "$value": "{color.brand3.border-default}"
       },
       "border-strong": {
         "$type": "color",
-        "$value": "{color.butikken.border-strong}"
+        "$value": "{color.brand3.border-strong}"
       },
       "base-default": {
         "$type": "color",
-        "$value": "{color.butikken.base-default}"
+        "$value": "{color.brand3.base-default}"
       },
       "base-hover": {
         "$type": "color",
-        "$value": "{color.butikken.base-hover}"
+        "$value": "{color.brand3.base-hover}"
       },
       "base-active": {
         "$type": "color",
-        "$value": "{color.butikken.base-active}"
+        "$value": "{color.brand3.base-active}"
       },
       "text-subtle": {
         "$type": "color",
-        "$value": "{color.butikken.text-subtle}"
+        "$value": "{color.brand3.text-subtle}"
       },
       "text-default": {
         "$type": "color",
-        "$value": "{color.butikken.text-default}"
+        "$value": "{color.brand3.text-default}"
       },
       "contrast-default": {
         "$type": "color",
-        "$value": "{color.butikken.contrast-default}"
+        "$value": "{color.brand3.contrast-default}"
       },
       "contrast-subtle": {
         "$type": "color",
-        "$value": "{color.butikken.contrast-subtle}"
+        "$value": "{color.brand3.contrast-subtle}"
       }
     }
   }

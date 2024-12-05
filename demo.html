@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="https://altinncdn.no/fonts/inter/inter.css" />
   <link rel="stylesheet" href="src/index.css" />
   <link rel="stylesheet" href="build/theme.css" />
-  <link rel="stylesheet" href="node_modules/@digdir/designsystemet-css/dist/src/index.css" />
-  <link rel="stylesheet" href="node_modules/@digdir/designsystemet-theme/brand/altinn.css" />
+  <link rel="stylesheet" href="https://www.unpkg.com/@digdir/designsystemet-css@1.0.0-next.39/dist/src/index.css" />
+  <!-- <link rel="stylesheet" href="node_modules/@digdir/designsystemet-theme/brand/digdir.css" /> -->
 </head>
 
-<body>
+<body data-color-scheme="auto" data-color="brand1" data-size="lg">
   <div class="components">
     <div class="card shoppinglist">
       <fieldset class="ds-fieldset">
@@ -53,9 +53,11 @@
       </div>
       <div class="ds-field">
         <label class="ds-label" data-weight="medium" for=":m3zls9tzywy">E-post</label>
-        <div class="ds-field-affixes">
-          <input class="ds-input" type="email" placeholder="ola@norge.no" id=":m3zls9tzywy">
-        </div>
+        <select class="ds-input" type="email" placeholder="ola@norge.no" id=":m3zls9tzywy">
+          <option value="opt1">opt1</option>"
+          <option value="opt2">opt2</option>"
+          <option value="opt3">opt3</option>"
+        </select>
       </div>
       <a class="ds-link" href="#">Glemt passord?</a>
       <button class="ds-button" data-variant="primary" type="button">Opprett ny bruker</button>
