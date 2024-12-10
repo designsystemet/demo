@@ -12,10 +12,10 @@
     "tokens:create": "designsystemet tokens create -n \"#003333\" -m primary:#007682 secondary:#1900fc -s support1:#942977"
   },
   "dependencies": {
-    "@digdir/designsystemet": "^1.0.0-next.39",
-    "@digdir/designsystemet-css": "^1.0.0-next.39",
-    "@digdir/designsystemet-react": "^1.0.0-next.39",
-    "@digdir/designsystemet-theme": "^1.0.0-next.39",
+    "@digdir/designsystemet": "^1.0.0-next.41",
+    "@digdir/designsystemet-css": "^1.0.0-next.41",
+    "@digdir/designsystemet-react": "^1.0.0-next.41-test-react19",
+    "@digdir/designsystemet-theme": "^1.0.0-next.41",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
