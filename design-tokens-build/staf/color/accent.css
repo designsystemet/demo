@@ -1,0 +1,24 @@
+/**
+ * These files are generated from design tokens defind using Token Studio
+ */
+
+@layer ds.theme.color {
+:root {
+  --ds-color-accent-background-default: var(--ds-color-staf-primary-background-default);
+  --ds-color-accent-background-subtle: var(--ds-color-staf-primary-background-subtle);
+  --ds-color-accent-surface-default: var(--ds-color-staf-primary-surface-default);
+  --ds-color-accent-surface-hover: var(--ds-color-staf-primary-surface-hover);
+  --ds-color-accent-surface-active: var(--ds-color-staf-primary-surface-active);
+  --ds-color-accent-border-subtle: var(--ds-color-staf-primary-border-subtle);
+  --ds-color-accent-border-default: var(--ds-color-staf-primary-border-default);
+  --ds-color-accent-border-strong: var(--ds-color-staf-primary-border-strong);
+  --ds-color-accent-base-default: var(--ds-color-staf-primary-base-default);
+  --ds-color-accent-base-hover: var(--ds-color-staf-primary-base-hover);
+  --ds-color-accent-base-active: var(--ds-color-staf-primary-base-active);
+  --ds-color-accent-text-subtle: var(--ds-color-staf-primary-text-subtle);
+  --ds-color-accent-text-default: var(--ds-color-staf-primary-text-default);
+  --ds-color-accent-contrast-default: var(--ds-color-staf-primary-contrast-default);
+  --ds-color-accent-contrast-subtle: var(--ds-color-staf-primary-contrast-subtle);
+}
+
+}

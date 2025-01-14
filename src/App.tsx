@@ -11,6 +11,7 @@ import {
   Textfield,
   Divider,
   Radio,
+  Tag,
 } from "@digdir/designsystemet-react";
 import "./MyField";
 import MyField from "./MyField";
@@ -20,6 +21,9 @@ function App() {
     <>
       {/* <MyField /> */}
       <div className="components">
+        <div className="card">
+          <Tag data-color="accent">Tag</Tag>
+        </div>
         <div className="card shoppinglist">
           <Fieldset>
             <Fieldset.Legend>Handleliste</Fieldset.Legend>

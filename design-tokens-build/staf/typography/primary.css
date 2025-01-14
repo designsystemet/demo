@@ -2,8 +2,8 @@
  * These files are generated from design tokens defind using Token Studio
  */
 
-@layer ds.theme.typography.secondary {
-[data-ds-typography="secondary"] {
+@layer ds.theme.typography.primary {
+:root, [data-typography="primary"] {
   --ds-font-family: Inter;
   --ds-font-weight-medium: 500;
   --ds-font-weight-semibold: 600;
@@ -119,9 +119,9 @@
   --ds-letter-spacing-7: 0.25%;
   --ds-letter-spacing-8: 0.5%;
   --ds-letter-spacing-9: 1.5%;
-  --ds-innbygger-portal-main: Inter;
-  --ds-innbygger-portal-bold: 500;
-  --ds-innbygger-portal-extra-bold: 600;
-  --ds-innbygger-portal-regular: 400;
+  --ds-staf-main: Inter;
+  --ds-staf-bold: 500;
+  --ds-staf-extra-bold: 600;
+  --ds-staf-regular: 400;
 }
 }
