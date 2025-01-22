@@ -2,7 +2,6 @@ import type { MainAndSupportColors as BaseCustomColors } from '@digdir/designsys
 
 declare module '@digdir/designsystemet-react/colors' {
   export interface MainAndSupportColors extends BaseCustomColors {
-    staf-primary: never;
-    brand2: never;
+    dominant: never;
   }
 }

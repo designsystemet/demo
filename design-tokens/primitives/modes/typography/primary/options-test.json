@@ -1,5 +1,5 @@
 {
-  "staf": {
+  "options-test": {
     "main": {
       "$type": "fontFamilies",
       "$value": "Inter"

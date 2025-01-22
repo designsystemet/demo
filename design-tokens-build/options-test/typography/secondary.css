@@ -119,9 +119,9 @@
   --ds-letter-spacing-7: 0.25%;
   --ds-letter-spacing-8: 0.5%;
   --ds-letter-spacing-9: 1.5%;
-  --ds-staf-main: Inter;
-  --ds-staf-bold: 500;
-  --ds-staf-extra-bold: 600;
-  --ds-staf-regular: 400;
+  --ds-options-test-main: Inter;
+  --ds-options-test-bold: 500;
+  --ds-options-test-extra-bold: 600;
+  --ds-options-test-regular: 400;
 }
 }

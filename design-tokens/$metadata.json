@@ -8,17 +8,15 @@
     "primitives/modes/typography/size/small",
     "primitives/modes/typography/size/medium",
     "primitives/modes/typography/size/large",
-    "primitives/modes/typography/primary/staf",
-    "primitives/modes/typography/secondary/staf",
+    "primitives/modes/typography/primary/options-test",
+    "primitives/modes/typography/secondary/options-test",
     "primitives/modes/color-scheme/light/global",
-    "primitives/modes/color-scheme/light/staf",
+    "primitives/modes/color-scheme/light/options-test",
     "primitives/modes/color-scheme/dark/global",
-    "primitives/modes/color-scheme/dark/staf",
-    "themes/staf",
+    "primitives/modes/color-scheme/dark/options-test",
+    "themes/options-test",
     "semantic/color",
-    "semantic/modes/main-color/staf-primary",
-    "semantic/modes/support-color/brand2",
-    "semantic/style",
-    "Figma/components"
+    "semantic/modes/main-color/dominant",
+    "semantic/style"
   ]
 }
