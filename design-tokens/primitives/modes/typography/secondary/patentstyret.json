@@ -1,5 +1,5 @@
 {
-  "options-test": {
+  "patentstyret": {
     "main": {
       "$type": "fontFamilies",
       "$value": "Inter"

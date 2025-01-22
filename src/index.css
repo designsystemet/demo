@@ -5,49 +5,48 @@
 @layer ds;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  font-feature-settings: "cv05" 1; /* Enable lowercase l with tail */
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+	font-feature-settings: "cv05" 1; /* Enable lowercase l with tail */
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
 }
 
 body {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: var(--ds-spacing-8);
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: var(--ds-size-8);
 }
 
 .components {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--ds-spacing-8);
-  max-width: 1440px;
-  margin: 0 auto;
-  background-color: var(--ds-color-neutral-background-default);
-  border-radius: var(--ds-border-radius-md);
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: var(--ds-size-8);
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: var(--ds-color-neutral-background-default);
+	border-radius: var(--ds-border-radius-md);
 }
 
 .card {
-  background-color: var(--ds-color-neutral-background-subtle);
-  border-radius: var(--ds-border-radius-md);
-  padding: var(--ds-spacing-6);
+	background-color: var(--ds-color-neutral-background-subtle);
+	border-radius: var(--ds-border-radius-md);
+	padding: var(--ds-size-6);
 }
 
 .shoppinglist {
-  grid-column: span 2;
+	grid-column: span 2;
 }
 
 .help {
-  grid-column: span 4;
-  display: grid;
-  gap: var(--ds-spacing-6);
+	grid-column: span 4;
+	display: grid;
+	gap: var(--ds-size-6);
 }
 
 .user {
-  grid-column: span 2;
-  display: grid;
-  gap: var(--ds-spacing-2);
+	grid-column: span 2;
+	display: grid;
+	gap: var(--ds-size-2);
 }
-
