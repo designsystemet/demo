@@ -17,6 +17,7 @@
     "themes/options-test",
     "semantic/color",
     "semantic/modes/main-color/dominant",
-    "semantic/style"
+    "semantic/style",
+    "Figma/components"
   ]
 }
