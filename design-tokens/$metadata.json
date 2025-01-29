@@ -8,18 +8,15 @@
     "primitives/modes/typography/size/small",
     "primitives/modes/typography/size/medium",
     "primitives/modes/typography/size/large",
-    "primitives/modes/typography/primary/patentstyret",
-    "primitives/modes/typography/secondary/patentstyret",
+    "primitives/modes/typography/primary/demo",
+    "primitives/modes/typography/secondary/demo",
     "primitives/modes/color-scheme/light/global",
-    "primitives/modes/color-scheme/light/patentstyret",
+    "primitives/modes/color-scheme/light/demo",
     "primitives/modes/color-scheme/dark/global",
-    "primitives/modes/color-scheme/dark/patentstyret",
-    "themes/patentstyret",
+    "primitives/modes/color-scheme/dark/demo",
+    "themes/demo",
     "semantic/color",
-    "semantic/modes/main-color/primary",
-    "semantic/modes/support-color/dark-green",
-    "semantic/modes/support-color/special",
-    "semantic/style",
-    "Figma/components"
+    "semantic/modes/main-color/sweet",
+    "semantic/style"
   ]
 }

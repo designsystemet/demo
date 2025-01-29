@@ -5,11 +5,9 @@
     "demo": {
       "colors": {
         "main": {
-          "sweet": "#950aff"
+          "sweet": "#00fc3b"
         },
-        "support": {
-          "bitter": "#000000"
-        },
+        "support": {},
         "neutral": "#1E2B3C"
       },
       "typography": {
