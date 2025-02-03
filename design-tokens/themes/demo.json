@@ -172,7 +172,7 @@
     },
     "base": {
       "$type": "dimension",
-      "$value": "99"
+      "$value": "0"
     },
     "scale": {
       "$type": "dimension",

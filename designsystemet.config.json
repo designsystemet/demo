@@ -5,7 +5,7 @@
     "demo": {
       "colors": {
         "main": {
-          "sweet": "#00fc3b"
+          "sweet": "#0062BA"
         },
         "support": {},
         "neutral": "#1E2B3C"
@@ -13,7 +13,7 @@
       "typography": {
         "fontFamily": "Inter"
       },
-      "borderRadius": 99
+      "borderRadius": 0
     }
   }
 }
