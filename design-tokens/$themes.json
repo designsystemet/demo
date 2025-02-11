@@ -217,10 +217,10 @@
     "group": "Main color"
   },
   {
-    "id": "e1b3cc290ea03005a4a6e1769809cb4fd8539c75",
-    "name": "hoved",
+    "id": "5eab9cc1b4ef6d75173787834dc34c4343a2c094",
+    "name": "lilla",
     "selectedTokenSets": {
-      "semantic/modes/main-color/hoved": "enabled"
+      "semantic/modes/main-color/lilla": "enabled"
     },
     "group": "Main color"
   },

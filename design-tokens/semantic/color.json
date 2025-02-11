@@ -62,66 +62,66 @@
         "$value": "{color.accent.contrast-2}"
       }
     },
-    "hoved": {
+    "lilla": {
       "background-default": {
         "$type": "color",
-        "$value": "{color.hoved.1}"
+        "$value": "{color.lilla.1}"
       },
       "background-subtle": {
         "$type": "color",
-        "$value": "{color.hoved.2}"
+        "$value": "{color.lilla.2}"
       },
       "surface-default": {
         "$type": "color",
-        "$value": "{color.hoved.3}"
+        "$value": "{color.lilla.3}"
       },
       "surface-hover": {
         "$type": "color",
-        "$value": "{color.hoved.4}"
+        "$value": "{color.lilla.4}"
       },
       "surface-active": {
         "$type": "color",
-        "$value": "{color.hoved.5}"
+        "$value": "{color.lilla.5}"
       },
       "border-subtle": {
         "$type": "color",
-        "$value": "{color.hoved.6}"
+        "$value": "{color.lilla.6}"
       },
       "border-default": {
         "$type": "color",
-        "$value": "{color.hoved.7}"
+        "$value": "{color.lilla.7}"
       },
       "border-strong": {
         "$type": "color",
-        "$value": "{color.hoved.8}"
+        "$value": "{color.lilla.8}"
       },
       "base-default": {
         "$type": "color",
-        "$value": "{color.hoved.9}"
+        "$value": "{color.lilla.9}"
       },
       "base-hover": {
         "$type": "color",
-        "$value": "{color.hoved.10}"
+        "$value": "{color.lilla.10}"
       },
       "base-active": {
         "$type": "color",
-        "$value": "{color.hoved.11}"
+        "$value": "{color.lilla.11}"
       },
       "text-subtle": {
         "$type": "color",
-        "$value": "{color.hoved.12}"
+        "$value": "{color.lilla.12}"
       },
       "text-default": {
         "$type": "color",
-        "$value": "{color.hoved.13}"
+        "$value": "{color.lilla.13}"
       },
       "contrast-default": {
         "$type": "color",
-        "$value": "{color.hoved.contrast-1}"
+        "$value": "{color.lilla.contrast-1}"
       },
       "contrast-subtle": {
         "$type": "color",
-        "$value": "{color.hoved.contrast-2}"
+        "$value": "{color.lilla.contrast-2}"
       }
     },
     "neutral": {

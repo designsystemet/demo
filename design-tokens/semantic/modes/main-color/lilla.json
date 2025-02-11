@@ -3,63 +3,63 @@
     "main": {
       "background-default": {
         "$type": "color",
-        "$value": "{color.hoved.background-default}"
+        "$value": "{color.lilla.background-default}"
       },
       "background-subtle": {
         "$type": "color",
-        "$value": "{color.hoved.background-subtle}"
+        "$value": "{color.lilla.background-subtle}"
       },
       "surface-default": {
         "$type": "color",
-        "$value": "{color.hoved.surface-default}"
+        "$value": "{color.lilla.surface-default}"
       },
       "surface-hover": {
         "$type": "color",
-        "$value": "{color.hoved.surface-hover}"
+        "$value": "{color.lilla.surface-hover}"
       },
       "surface-active": {
         "$type": "color",
-        "$value": "{color.hoved.surface-active}"
+        "$value": "{color.lilla.surface-active}"
       },
       "border-subtle": {
         "$type": "color",
-        "$value": "{color.hoved.border-subtle}"
+        "$value": "{color.lilla.border-subtle}"
       },
       "border-default": {
         "$type": "color",
-        "$value": "{color.hoved.border-default}"
+        "$value": "{color.lilla.border-default}"
       },
       "border-strong": {
         "$type": "color",
-        "$value": "{color.hoved.border-strong}"
+        "$value": "{color.lilla.border-strong}"
       },
       "base-default": {
         "$type": "color",
-        "$value": "{color.hoved.base-default}"
+        "$value": "{color.lilla.base-default}"
       },
       "base-hover": {
         "$type": "color",
-        "$value": "{color.hoved.base-hover}"
+        "$value": "{color.lilla.base-hover}"
       },
       "base-active": {
         "$type": "color",
-        "$value": "{color.hoved.base-active}"
+        "$value": "{color.lilla.base-active}"
       },
       "text-subtle": {
         "$type": "color",
-        "$value": "{color.hoved.text-subtle}"
+        "$value": "{color.lilla.text-subtle}"
       },
       "text-default": {
         "$type": "color",
-        "$value": "{color.hoved.text-default}"
+        "$value": "{color.lilla.text-default}"
       },
       "contrast-default": {
         "$type": "color",
-        "$value": "{color.hoved.contrast-default}"
+        "$value": "{color.lilla.contrast-default}"
       },
       "contrast-subtle": {
         "$type": "color",
-        "$value": "{color.hoved.contrast-subtle}"
+        "$value": "{color.lilla.contrast-subtle}"
       }
     }
   }

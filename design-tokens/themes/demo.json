@@ -62,66 +62,66 @@
         "$value": "{demo.accent.contrast-2}"
       }
     },
-    "hoved": {
+    "lilla": {
       "1": {
         "$type": "color",
-        "$value": "{demo.hoved.1}"
+        "$value": "{demo.lilla.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{demo.hoved.2}"
+        "$value": "{demo.lilla.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{demo.hoved.3}"
+        "$value": "{demo.lilla.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{demo.hoved.4}"
+        "$value": "{demo.lilla.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{demo.hoved.5}"
+        "$value": "{demo.lilla.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{demo.hoved.6}"
+        "$value": "{demo.lilla.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{demo.hoved.7}"
+        "$value": "{demo.lilla.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{demo.hoved.8}"
+        "$value": "{demo.lilla.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{demo.hoved.9}"
+        "$value": "{demo.lilla.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{demo.hoved.10}"
+        "$value": "{demo.lilla.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{demo.hoved.11}"
+        "$value": "{demo.lilla.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{demo.hoved.12}"
+        "$value": "{demo.lilla.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{demo.hoved.13}"
+        "$value": "{demo.lilla.13}"
       },
       "contrast-1": {
         "$type": "color",
-        "$value": "{demo.hoved.contrast-1}"
+        "$value": "{demo.lilla.contrast-1}"
       },
       "contrast-2": {
         "$type": "color",
-        "$value": "{demo.hoved.contrast-2}"
+        "$value": "{demo.lilla.contrast-2}"
       }
     },
     "neutral": {
@@ -420,7 +420,7 @@
     },
     "base": {
       "$type": "dimension",
-      "$value": "4"
+      "$value": "9999"
     },
     "scale": {
       "$type": "dimension",
