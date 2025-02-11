@@ -1,5 +1,3 @@
-// import "@digdir/designsystemet-theme/digdir.css";
-
 import {
   Button,
   Card,
@@ -11,11 +9,40 @@ import {
   Textfield,
   Divider,
   Radio,
+  Avatar,
+  List,
+  Dropdown,
 } from '@digdir/designsystemet-react';
 
 function App() {
   return (
-    <>
+    <div className='container'>
+      <nav className='header'>
+        <Heading>Designsystemet Demo</Heading>
+        <Dropdown.TriggerContext>
+          <Dropdown.Trigger>Meny</Dropdown.Trigger>
+          <Dropdown>
+            <Dropdown.Heading>First heading</Dropdown.Heading>
+            <Dropdown.List>
+              <Dropdown.Item>
+                <Dropdown.Button>Button 1.1</Dropdown.Button>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Dropdown.Button>Button 1.2</Dropdown.Button>
+              </Dropdown.Item>
+            </Dropdown.List>
+            <Dropdown.Heading>Second heading</Dropdown.Heading>
+            <Dropdown.List>
+              <Dropdown.Item>
+                <Dropdown.Button>Button 2.1</Dropdown.Button>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Dropdown.Button>Button 2.2</Dropdown.Button>
+              </Dropdown.Item>
+            </Dropdown.List>
+          </Dropdown>
+        </Dropdown.TriggerContext>
+      </nav>
       <div className='components'>
         <div className='card shoppinglist'>
           <Fieldset>
@@ -39,8 +66,7 @@ function App() {
           <Link href='#'>Glemt passord?</Link>
           <Button>Opprett ny bruker</Button>
         </div>
-        <div className='card help'>
-          <Heading data-size='2xs'>Dyr</Heading>
+        <div className='help'>
           <Card>
             <Heading>Tamkatt 🐈</Heading>
             <Paragraph>
@@ -92,7 +118,18 @@ function App() {
           </Card>
         </div>
       </div>
-    </>
+      <footer data-color-scheme='dark'>
+        <Heading data-size='2xs'>Mer informasjon</Heading>
+        <List.Unordered>
+          <List.Item>
+            <Link href='/'>Personvernserklæring</Link>
+          </List.Item>
+          <List.Item>
+            <Link href='/'>Tilgjengeligheterklæring</Link>
+          </List.Item>
+        </List.Unordered>
+      </footer>
+    </div>
   );
 }
 
