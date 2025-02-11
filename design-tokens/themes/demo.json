@@ -1,65 +1,65 @@
 {
   "color": {
-    "sweet": {
+    "hoved": {
       "1": {
         "$type": "color",
-        "$value": "{demo.sweet.1}"
+        "$value": "{demo.hoved.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{demo.sweet.2}"
+        "$value": "{demo.hoved.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{demo.sweet.3}"
+        "$value": "{demo.hoved.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{demo.sweet.4}"
+        "$value": "{demo.hoved.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{demo.sweet.5}"
+        "$value": "{demo.hoved.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{demo.sweet.6}"
+        "$value": "{demo.hoved.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{demo.sweet.7}"
+        "$value": "{demo.hoved.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{demo.sweet.8}"
+        "$value": "{demo.hoved.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{demo.sweet.9}"
+        "$value": "{demo.hoved.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{demo.sweet.10}"
+        "$value": "{demo.hoved.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{demo.sweet.11}"
+        "$value": "{demo.hoved.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{demo.sweet.12}"
+        "$value": "{demo.hoved.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{demo.sweet.13}"
+        "$value": "{demo.hoved.13}"
       },
       "contrast-1": {
         "$type": "color",
-        "$value": "{demo.sweet.contrast-1}"
+        "$value": "{demo.hoved.contrast-1}"
       },
       "contrast-2": {
         "$type": "color",
-        "$value": "{demo.sweet.contrast-2}"
+        "$value": "{demo.hoved.contrast-2}"
       }
     },
     "neutral": {

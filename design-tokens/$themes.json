@@ -209,10 +209,10 @@
     "group": "Semantic"
   },
   {
-    "id": "ce0993343feb588e226e09313241cd581aebde0a",
-    "name": "sweet",
+    "id": "e1b3cc290ea03005a4a6e1769809cb4fd8539c75",
+    "name": "hoved",
     "selectedTokenSets": {
-      "semantic/modes/main-color/sweet": "enabled"
+      "semantic/modes/main-color/hoved": "enabled"
     },
     "group": "Main color"
   }

@@ -2,6 +2,6 @@ import type { MainAndSupportColors as BaseCustomColors } from '@digdir/designsys
 
 declare module '@digdir/designsystemet-react/colors' {
   export interface MainAndSupportColors extends BaseCustomColors {
-    sweet: never;
+    hoved: never;
   }
 }
