@@ -65,8 +65,8 @@ function App() {
           <Link href='#'>Glemt passord?</Link>
           <Button>Opprett ny bruker</Button>
         </div>
-        <div className='help'>
-          <Card>
+        <div className='animals'>
+          <Card className='animal-card'>
             <Heading>Tamkatt 🐈</Heading>
             <Paragraph>
               Tamkatt er et lite{' '}
@@ -88,7 +88,7 @@ function App() {
               utvelgelse).
             </Paragraph>
           </Card>
-          <Card>
+          <Card className='animal-card'>
             <Heading>Frosk 🐸</Heading>
             <Paragraph>
               Frosker tilhører ordenen {''}
@@ -105,7 +105,7 @@ function App() {
               krabber mer enn de hopper.
             </Paragraph>
           </Card>
-          <Card>
+          <Card className='animal-card'>
             <Heading>Hund 🐶</Heading>
             <Paragraph>
               Hund eller tamhund (Canis familiaris eller Canis lupus familiaris)

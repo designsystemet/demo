@@ -209,6 +209,14 @@
     "group": "Semantic"
   },
   {
+    "id": "77029e975ec86efe4b92eb0be546d61959085bd1",
+    "name": "accent",
+    "selectedTokenSets": {
+      "semantic/modes/main-color/accent": "enabled"
+    },
+    "group": "Main color"
+  },
+  {
     "id": "e1b3cc290ea03005a4a6e1769809cb4fd8539c75",
     "name": "hoved",
     "selectedTokenSets": {
@@ -217,11 +225,27 @@
     "group": "Main color"
   },
   {
-    "id": "bd73389a1ccd592d08ebd77ad2b981cd0b692d22",
-    "name": "rosa",
+    "id": "77270e21ea69e87b1111ab73f82f2c9501ffb509",
+    "name": "brand1",
     "selectedTokenSets": {
-      "semantic/modes/main-color/rosa": "enabled"
+      "semantic/modes/support-color/brand1": "enabled"
     },
-    "group": "Main color"
+    "group": "Support color"
+  },
+  {
+    "id": "f048e6cbea788b19c6789b0d2d9307adbcb6efe9",
+    "name": "brand2",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/brand2": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "eade528bedd174a995da87bf38c35a30de0760bb",
+    "name": "brand3",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/brand3": "enabled"
+    },
+    "group": "Support color"
   }
 ]

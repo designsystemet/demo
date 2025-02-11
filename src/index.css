@@ -30,6 +30,10 @@ nav {
 
 footer {
   padding: var(--ds-size-4);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 
   & > ul {
     list-style: none;
@@ -68,8 +72,10 @@ footer {
   gap: var(--ds-size-2);
 }
 
-.help {
-  grid-column: span 2;
+.animals {
+  background-color: var(--ds-color-neutral-background-subtle);
+  grid-column: span 4;
   display: grid;
   gap: var(--ds-size-6);
+  grid-template-columns: repeat(3, 1fr);
 }
