@@ -9,14 +9,13 @@ import {
   Textfield,
   Divider,
   Radio,
-  Avatar,
   List,
   Dropdown,
 } from '@digdir/designsystemet-react';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='container' data-color='rosa'>
       <nav className='header'>
         <Heading>Designsystemet Demo</Heading>
         <Dropdown.TriggerContext>

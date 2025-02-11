@@ -215,5 +215,13 @@
       "semantic/modes/main-color/hoved": "enabled"
     },
     "group": "Main color"
+  },
+  {
+    "id": "bd73389a1ccd592d08ebd77ad2b981cd0b692d22",
+    "name": "rosa",
+    "selectedTokenSets": {
+      "semantic/modes/main-color/rosa": "enabled"
+    },
+    "group": "Main color"
   }
 ]
