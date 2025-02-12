@@ -15,7 +15,7 @@ import {
 
 function App() {
   return (
-    <div className='container' data-color='rosa'>
+    <div className='container' data-color='rosa' data-color-scheme='auto'>
       <nav className='header'>
         <Heading>Designsystemet Demo</Heading>
         <Dropdown.TriggerContext>
@@ -65,7 +65,7 @@ function App() {
           <Link href='#'>Glemt passord?</Link>
           <Button>Opprett ny bruker</Button>
         </div>
-        <div className='animals'>
+        <div className='animals' data-size='sm'>
           <Card className='animal-card'>
             <Heading>Tamkatt 🐈</Heading>
             <Paragraph>

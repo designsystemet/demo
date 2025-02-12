@@ -1,0 +1,81 @@
+@import url('../design-tokens-build/demo.css');
+@import url('@digdir/designsystemet-css');
+
+@layer ds;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-feature-settings: 'cv05' 1; /* Enable lowercase l with tail */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  background: var(--ds-color-surface-default);
+  color: var(--ds-color-text-default);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--ds-size-8);
+  padding: var(--ds-size-4);
+  align-items: center;
+  background: var(--ds-color-base-default);
+  border-bottom: var(--ds-border-width-default) solid var(--ds-color-border-default);
+  color: var(--ds-color-contrast-default);
+}
+
+footer {
+  padding: var(--ds-size-4);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  & > ul {
+    list-style: none;
+    padding-inline: 0;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: var(--ds-size-8);
+}
+
+.components {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--ds-size-8);
+  max-width: 1440px;
+  margin: 0 auto;
+  border-radius: var(--ds-border-radius-md);
+}
+
+.card {
+  background-color: var(--ds-color-neutral-background-subtle);
+  border-radius: var(--ds-border-radius-md);
+  padding: var(--ds-size-6);
+}
+
+.shoppinglist {
+  grid-column: span 1;
+}
+
+.user {
+  grid-column: span 2;
+  display: grid;
+  gap: var(--ds-size-2);
+}
+
+.animals {
+  background-color: var(--ds-color-neutral-background-subtle);
+  grid-column: span 4;
+  display: grid;
+  gap: var(--ds-size-6);
+  grid-template-columns: repeat(3, 1fr);
+}
