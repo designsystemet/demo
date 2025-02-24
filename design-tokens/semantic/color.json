@@ -399,11 +399,11 @@
     "focus": {
       "inner": {
         "$type": "color",
-        "$value": "{color.neutral.background-default}"
+        "$value": "{global.override.orange.1}"
       },
       "outer": {
         "$type": "color",
-        "$value": "{color.neutral.text-default}"
+        "$value": "{global.override.orange.2}"
       }
     }
   }

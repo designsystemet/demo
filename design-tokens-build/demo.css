@@ -104,8 +104,8 @@
   --ds-color-warning-base-active: #b27614;
   --ds-color-warning-base-contrast-subtle: #271a04;
   --ds-color-warning-base-contrast-default: #000000;
-  --ds-color-focus-inner: #ffffff;
-  --ds-color-focus-outer: #1f2c3d;
+  --ds-color-focus-inner: #000;
+  --ds-color-focus-outer: #000;
   --ds-global-blue-1: #ffffff;
   --ds-global-blue-2: #edf5fa;
   --ds-global-blue-3: #ffffff;
@@ -186,6 +186,8 @@
   --ds-global-red-14: #791111;
   --ds-global-red-15: #f7e1e1;
   --ds-global-red-16: #ffffff;
+  --ds-global-override-orange-1: #000;
+  --ds-global-override-orange-2: #000;
 
   color-scheme: light;
 }
@@ -288,8 +290,8 @@
   --ds-color-warning-base-active: #b27614;
   --ds-color-warning-base-contrast-subtle: #271a04;
   --ds-color-warning-base-contrast-default: #000000;
-  --ds-color-focus-inner: #ffffff;
-  --ds-color-focus-outer: #1f2c3d;
+  --ds-color-focus-inner: #000;
+  --ds-color-focus-outer: #000;
   --ds-global-blue-1: #ffffff;
   --ds-global-blue-2: #edf5fa;
   --ds-global-blue-3: #ffffff;
@@ -370,6 +372,8 @@
   --ds-global-red-14: #791111;
   --ds-global-red-15: #f7e1e1;
   --ds-global-red-16: #ffffff;
+  --ds-global-override-orange-1: #000;
+  --ds-global-override-orange-2: #000;
 
   color-scheme: light;
 }
@@ -674,8 +678,8 @@
   --ds-color-warning-base-active: #946211;
   --ds-color-warning-base-contrast-subtle: #e6e2d9;
   --ds-color-warning-base-contrast-default: #ffffff;
-  --ds-color-focus-inner: #131c27;
-  --ds-color-focus-outer: #e3e5e7;
+  --ds-color-focus-inner: #000;
+  --ds-color-focus-outer: #000;
   --ds-global-blue-1: #031d31;
   --ds-global-blue-2: #03253f;
   --ds-global-blue-3: #042e4e;
@@ -756,6 +760,8 @@
   --ds-global-red-14: #e7a8a8;
   --ds-global-red-15: #271414;
   --ds-global-red-16: #000000;
+  --ds-global-override-orange-1: #000;
+  --ds-global-override-orange-2: #000;
 
   color-scheme: dark;
 }
@@ -858,8 +864,8 @@
   --ds-color-warning-base-active: #946211;
   --ds-color-warning-base-contrast-subtle: #e6e2d9;
   --ds-color-warning-base-contrast-default: #ffffff;
-  --ds-color-focus-inner: #131c27;
-  --ds-color-focus-outer: #e3e5e7;
+  --ds-color-focus-inner: #000;
+  --ds-color-focus-outer: #000;
   --ds-global-blue-1: #031d31;
   --ds-global-blue-2: #03253f;
   --ds-global-blue-3: #042e4e;
@@ -940,6 +946,8 @@
   --ds-global-red-14: #e7a8a8;
   --ds-global-red-15: #271414;
   --ds-global-red-16: #000000;
+  --ds-global-override-orange-1: #000;
+  --ds-global-override-orange-2: #000;
 
   color-scheme: dark;
 }
