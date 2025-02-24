@@ -334,11 +334,11 @@
       "orange": {
         "1": {
           "$type": "color",
-          "$value": "#000"
+          "$value": "#fff"
         },
         "2": {
           "$type": "color",
-          "$value": "#000"
+          "$value": "#fff"
         }
       }
     }
