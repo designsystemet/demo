@@ -329,18 +329,6 @@
         "$type": "color",
         "$value": "#ffffff"
       }
-    },
-    "override": {
-      "orange": {
-        "1": {
-          "$type": "color",
-          "$value": "#000"
-        },
-        "2": {
-          "$type": "color",
-          "$value": "#f88"
-        }
-      }
     }
   }
 }
