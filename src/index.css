@@ -25,7 +25,7 @@ nav {
   align-items: center;
   background: var(--ds-color-base-default);
   border-bottom: var(--ds-border-width-default) solid var(--ds-color-border-default);
-  color: var(--ds-color-contrast-default);
+  color: var(--ds-color-base-contrast-default);
 }
 
 footer {
