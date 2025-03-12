@@ -26,7 +26,7 @@
     "noUncheckedSideEffectImports": true,
     "types": [
       "./design-tokens-build/colors.d.ts",
-      "@digdir/designsystemet-react/react-types.d.ts",
+      "@digdir/designsystemet-react/react-types",
     ],
   },
   "include": [

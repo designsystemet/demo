@@ -15,7 +15,7 @@ import {
 
 function App() {
   return (
-    <div className='container' data-color='rosa' data-color-scheme='auto'>
+    <div className='container' data-color='' data-color-scheme='auto'>
       <nav className='header'>
         <Heading>Designsystemet Demo</Heading>
         <Dropdown.TriggerContext>
