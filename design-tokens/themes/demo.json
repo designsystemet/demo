@@ -66,72 +66,6 @@
         "$value": "{demo.hoved.16}"
       }
     },
-    "sweet": {
-      "1": {
-        "$type": "color",
-        "$value": "{demo.sweet.1}"
-      },
-      "2": {
-        "$type": "color",
-        "$value": "{demo.sweet.2}"
-      },
-      "3": {
-        "$type": "color",
-        "$value": "{demo.sweet.3}"
-      },
-      "4": {
-        "$type": "color",
-        "$value": "{demo.sweet.4}"
-      },
-      "5": {
-        "$type": "color",
-        "$value": "{demo.sweet.5}"
-      },
-      "6": {
-        "$type": "color",
-        "$value": "{demo.sweet.6}"
-      },
-      "7": {
-        "$type": "color",
-        "$value": "{demo.sweet.7}"
-      },
-      "8": {
-        "$type": "color",
-        "$value": "{demo.sweet.8}"
-      },
-      "9": {
-        "$type": "color",
-        "$value": "{demo.sweet.9}"
-      },
-      "10": {
-        "$type": "color",
-        "$value": "{demo.sweet.10}"
-      },
-      "11": {
-        "$type": "color",
-        "$value": "{demo.sweet.11}"
-      },
-      "12": {
-        "$type": "color",
-        "$value": "{demo.sweet.12}"
-      },
-      "13": {
-        "$type": "color",
-        "$value": "{demo.sweet.13}"
-      },
-      "14": {
-        "$type": "color",
-        "$value": "{demo.sweet.14}"
-      },
-      "15": {
-        "$type": "color",
-        "$value": "{demo.sweet.15}"
-      },
-      "16": {
-        "$type": "color",
-        "$value": "{demo.sweet.16}"
-      }
-    },
     "neutral": {
       "1": {
         "$type": "color",
@@ -199,24 +133,22 @@
       }
     }
   },
-  "font": {
-    "family": {
-      "$type": "fontFamilies",
-      "$value": "{demo.main}"
-    }
+  "font-family": {
+    "$type": "fontFamilies",
+    "$value": "{demo.font-family}"
   },
   "font-weight": {
     "medium": {
       "$type": "fontWeights",
-      "$value": "{demo.bold}"
+      "$value": "{demo.font-weight.medium}"
     },
     "semibold": {
       "$type": "fontWeights",
-      "$value": "{demo.extra-bold}"
+      "$value": "{demo.font-weight.semibold}"
     },
     "regular": {
       "$type": "fontWeights",
-      "$value": "{demo.regular}"
+      "$value": "{demo.font-weight.regular}"
     }
   },
   "border-radius": {
@@ -246,7 +178,7 @@
     },
     "base": {
       "$type": "dimension",
-      "$value": "4"
+      "$value": "0"
     },
     "scale": {
       "$type": "dimension",

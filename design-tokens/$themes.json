@@ -109,13 +109,5 @@
       "semantic/modes/main-color/hoved": "enabled"
     },
     "group": "Main color"
-  },
-  {
-    "id": "ce0993343feb588e226e09313241cd581aebde0a",
-    "name": "sweet",
-    "selectedTokenSets": {
-      "semantic/modes/main-color/sweet": "enabled"
-    },
-    "group": "Main color"
   }
 ]
