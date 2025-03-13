@@ -1,4 +1,4 @@
-@import url('../design-tokens-build/helse.css');
+@import url('../design-tokens-build/miljo.css');
 @import url('@digdir/designsystemet-css');
 
 @layer ds;
@@ -109,6 +109,5 @@ textarea {
   grid-column: span 4;
   display: grid;
   gap: var(--ds-size-4);
-  justify-self: center;
   padding: var(--ds-size-10);
 }
