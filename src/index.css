@@ -1,4 +1,4 @@
-@import url('../design-tokens-build/demo.css');
+@import url('../design-tokens-build/helse.css');
 @import url('@digdir/designsystemet-css');
 
 @layer ds;
@@ -64,7 +64,7 @@ footer {
 }
 
 .card {
-  background-color: var(--ds-color-neutral-background-subtle);
+  background-color: var(--ds-color-neutral-background-tinted);
   border-radius: var(--ds-border-radius-md);
   padding: var(--ds-size-6);
 }
@@ -79,6 +79,7 @@ textarea {
   max-width: 540px;
   padding: 0 var(--ds-size-12);
   padding-bottom: var(--ds-size-8);
+  color: var(--ds-color-base-contrast-default);
 }
 
 .button-group {
@@ -86,8 +87,16 @@ textarea {
   gap: var(--ds-size-2);
 }
 
+.ds-button[data-variant='secondary'] {
+  color: var(--ds-color-base-contrast-default);
+  border-color: var(--ds-color-base-contrast-default);
+}
+
+.ds-button[data-variant='secondary']:hover {
+  color: var(--ds-color-text-default);
+}
+
 .highlighted-cards {
-  background-color: var(--ds-color-neutral-background-subtle);
   grid-column: span 4;
   display: grid;
   gap: var(--ds-size-6);
@@ -95,7 +104,7 @@ textarea {
 }
 
 .contact {
-  background-color: #d7e8dc;
+  background-color: var(--ds-color-surface-tinted);
   border-radius: var(--ds-border-radius-md);
   grid-column: span 4;
   display: grid;

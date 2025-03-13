@@ -19,7 +19,7 @@ import {
 
 function App() {
   return (
-    <div className='container' data-color='main3' data-color-scheme='light'>
+    <div className='container' data-color='primary' data-color-scheme='light'>
       <header className='header'>
         <nav className='nav'>
           <Heading>Avsender</Heading>
