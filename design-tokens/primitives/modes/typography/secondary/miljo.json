@@ -2,7 +2,7 @@
   "miljo": {
     "font-family": {
       "$type": "fontFamilies",
-      "$value": "Inter"
+      "$value": "Lato"
     },
     "font-weight": {
       "medium": {
