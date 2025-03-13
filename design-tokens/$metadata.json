@@ -16,7 +16,9 @@
     "primitives/modes/color-scheme/light/demo",
     "themes/demo",
     "semantic/color",
-    "semantic/modes/main-color/hoved",
+    "semantic/modes/main-color/main1",
+    "semantic/modes/main-color/main2",
+    "semantic/modes/main-color/main3",
     "semantic/style"
   ]
 }

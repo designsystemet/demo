@@ -17,20 +17,22 @@ body {
   color: var(--ds-color-text-default);
 }
 
+header {
+  background: var(--ds-color-base-default);
+  border-bottom: var(--ds-border-width-default) solid var(--ds-color-border-default);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   gap: var(--ds-size-8);
   padding: var(--ds-size-4);
-  align-items: center;
-  background: var(--ds-color-base-default);
-  border-bottom: var(--ds-border-width-default) solid var(--ds-color-border-default);
+  align-items: top;
   color: var(--ds-color-base-contrast-default);
 }
 
 footer {
   padding: var(--ds-size-4);
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -47,11 +49,16 @@ footer {
   gap: var(--ds-size-8);
 }
 
+.center {
+  grid-column: span 4;
+  text-align: center;
+}
+
 .components {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--ds-size-8);
-  max-width: 1440px;
+  max-width: 940px;
   margin: 0 auto;
   border-radius: var(--ds-border-radius-md);
 }
@@ -62,20 +69,37 @@ footer {
   padding: var(--ds-size-6);
 }
 
-.shoppinglist {
-  grid-column: span 1;
+textarea {
+  min-height: 160px;
 }
 
-.user {
-  grid-column: span 2;
+.intro {
   display: grid;
+  gap: var(--ds-size-6);
+  max-width: 540px;
+  padding: 0 var(--ds-size-12);
+  padding-bottom: var(--ds-size-8);
+}
+
+.button-group {
+  display: flex;
   gap: var(--ds-size-2);
 }
 
-.animals {
+.highlighted-cards {
   background-color: var(--ds-color-neutral-background-subtle);
   grid-column: span 4;
   display: grid;
   gap: var(--ds-size-6);
   grid-template-columns: repeat(3, 1fr);
+}
+
+.contact {
+  background-color: #d7e8dc;
+  border-radius: var(--ds-border-radius-md);
+  grid-column: span 4;
+  display: grid;
+  gap: var(--ds-size-4);
+  justify-self: center;
+  padding: var(--ds-size-10);
 }

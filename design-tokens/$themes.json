@@ -103,10 +103,26 @@
     "group": "Semantic"
   },
   {
-    "id": "e1b3cc290ea03005a4a6e1769809cb4fd8539c75",
-    "name": "hoved",
+    "id": "be588602f7a855dbd3764f0c15a405344cfdd930",
+    "name": "main1",
     "selectedTokenSets": {
-      "semantic/modes/main-color/hoved": "enabled"
+      "semantic/modes/main-color/main1": "enabled"
+    },
+    "group": "Main color"
+  },
+  {
+    "id": "4db8bfdf710f29968502744a31a35f0e75012f33",
+    "name": "main2",
+    "selectedTokenSets": {
+      "semantic/modes/main-color/main2": "enabled"
+    },
+    "group": "Main color"
+  },
+  {
+    "id": "175bcfad8ab9ba59485558f824da6def5bcb8ac4",
+    "name": "main3",
+    "selectedTokenSets": {
+      "semantic/modes/main-color/main3": "enabled"
     },
     "group": "Main color"
   }

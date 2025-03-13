@@ -2,6 +2,8 @@ import type {} from '@digdir/designsystemet-react/colors';
 
 declare module '@digdir/designsystemet-react/colors' {
   export interface MainAndSupportColors {
-    hoved: never;
+    main1: never;
+    main2: never;
+    main3: never;
   }
 }

@@ -1,69 +1,201 @@
 {
   "color": {
-    "hoved": {
+    "main1": {
       "1": {
         "$type": "color",
-        "$value": "{demo.hoved.1}"
+        "$value": "{demo.main1.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{demo.hoved.2}"
+        "$value": "{demo.main1.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{demo.hoved.3}"
+        "$value": "{demo.main1.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{demo.hoved.4}"
+        "$value": "{demo.main1.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{demo.hoved.5}"
+        "$value": "{demo.main1.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{demo.hoved.6}"
+        "$value": "{demo.main1.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{demo.hoved.7}"
+        "$value": "{demo.main1.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{demo.hoved.8}"
+        "$value": "{demo.main1.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{demo.hoved.9}"
+        "$value": "{demo.main1.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{demo.hoved.10}"
+        "$value": "{demo.main1.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{demo.hoved.11}"
+        "$value": "{demo.main1.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{demo.hoved.12}"
+        "$value": "{demo.main1.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{demo.hoved.13}"
+        "$value": "{demo.main1.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{demo.hoved.14}"
+        "$value": "{demo.main1.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{demo.hoved.15}"
+        "$value": "{demo.main1.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{demo.hoved.16}"
+        "$value": "{demo.main1.16}"
+      }
+    },
+    "main2": {
+      "1": {
+        "$type": "color",
+        "$value": "{demo.main2.1}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{demo.main2.2}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{demo.main2.3}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{demo.main2.4}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{demo.main2.5}"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{demo.main2.6}"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{demo.main2.7}"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{demo.main2.8}"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{demo.main2.9}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{demo.main2.10}"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{demo.main2.11}"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{demo.main2.12}"
+      },
+      "13": {
+        "$type": "color",
+        "$value": "{demo.main2.13}"
+      },
+      "14": {
+        "$type": "color",
+        "$value": "{demo.main2.14}"
+      },
+      "15": {
+        "$type": "color",
+        "$value": "{demo.main2.15}"
+      },
+      "16": {
+        "$type": "color",
+        "$value": "{demo.main2.16}"
+      }
+    },
+    "main3": {
+      "1": {
+        "$type": "color",
+        "$value": "{demo.main3.1}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{demo.main3.2}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{demo.main3.3}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{demo.main3.4}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{demo.main3.5}"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "{demo.main3.6}"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "{demo.main3.7}"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "{demo.main3.8}"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "{demo.main3.9}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{demo.main3.10}"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "{demo.main3.11}"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "{demo.main3.12}"
+      },
+      "13": {
+        "$type": "color",
+        "$value": "{demo.main3.13}"
+      },
+      "14": {
+        "$type": "color",
+        "$value": "{demo.main3.14}"
+      },
+      "15": {
+        "$type": "color",
+        "$value": "{demo.main3.15}"
+      },
+      "16": {
+        "$type": "color",
+        "$value": "{demo.main3.16}"
       }
     },
     "neutral": {
@@ -178,7 +310,7 @@
     },
     "base": {
       "$type": "dimension",
-      "$value": "0"
+      "$value": "4"
     },
     "scale": {
       "$type": "dimension",
