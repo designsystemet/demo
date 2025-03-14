@@ -1,0 +1,17 @@
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: var(--ds-size-6);
+  margin-top: 24px;
+}
+
+.icon {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 160, 160);
+  border-radius: 50%;
+  font-size: 1.5rem;
+}

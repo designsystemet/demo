@@ -1,0 +1,22 @@
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 218, 218);
+  padding: 60px 0;
+}
+
+.contactContainer {
+  width: 100%;
+  display: flex;
+  gap: 60px;
+}
+
+.leftRegion {
+  flex: 0 1 50%;
+}
+
+.rightRegion {
+  flex: 0 1 50%;
+}

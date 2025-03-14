@@ -1,0 +1,38 @@
+.topbar {
+  padding-top: 24px;
+}
+
+.topbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: var(--ds-size-8);
+  margin: 0;
+  padding: 0;
+  margin-left: var(--ds-size-14);
+}
+
+.menuItem {
+  list-style: none;
+}
+
+.middle {
+  margin-right: auto;
+}
+
+.btn svg {
+  font-size: 1.6rem;
+}

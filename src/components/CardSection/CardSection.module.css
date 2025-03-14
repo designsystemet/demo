@@ -1,0 +1,10 @@
+.cardSection {
+  margin: 70px 0;
+}
+
+.content {
+  margin-top: 24px;
+  display: grid;
+  gap: var(--ds-size-6);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+}
