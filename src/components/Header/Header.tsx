@@ -5,12 +5,21 @@ import { Heading, Paragraph, Button } from "@digdir/designsystemet-react";
 type HeaderProps = {
   title: string;
   description: string;
-  imgSrc: string;
+  imgSrc?: string;
+  backgroundSrc?: string;
 };
 
-export const Header = ({ title, description, imgSrc }: HeaderProps) => {
+export const Header = ({
+  title,
+  description,
+  imgSrc,
+  backgroundSrc,
+}: HeaderProps) => {
   return (
-    <header className={classes.header}>
+    <header
+      className={classes.header}
+      style={{ backgroundImage: `url(${backgroundSrc})` }}
+    >
       <Topbar />
       <div className={`${classes.headerContainer} container`}>
         <div className={classes.left}>

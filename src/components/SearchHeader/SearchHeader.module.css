@@ -1,0 +1,22 @@
+.searchHeader {
+  background-color: var(--ds-color-neutral-background-default);
+  height: 340px;
+  position: relative;
+}
+
+.searchContainer {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.search {
+  margin-top: 24px;
+}
+
+.img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

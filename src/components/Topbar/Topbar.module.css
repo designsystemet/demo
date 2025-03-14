@@ -2,6 +2,10 @@
   padding-top: 24px;
 }
 
+[data-color-scheme="dark"] .topbar svg path {
+  fill: var(--ds-color-neutral-text-default);
+}
+
 .topbarContainer {
   display: flex;
   justify-content: space-between;
