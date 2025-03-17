@@ -1,7 +1,3 @@
-@import url("../../../design-tokens-build/digdir.css");
-
-@layer tomat;
-
 #digdir-page .card {
   text-align: center;
   display: flex;
@@ -26,20 +22,20 @@
   align-items: center;
 }
 
-#digdir-page [data-color="extra1"] .card__icon {
+#digdir-page [data-color='extra1'] .card__icon {
   background-color: var(--ds-color-extra1-surface-active);
 }
-#digdir-page [data-color="extra2"] .card__icon {
+#digdir-page [data-color='extra2'] .card__icon {
   background-color: var(--ds-color-extra2-surface-active);
 }
-#digdir-page [data-color="primary"] .card__icon {
+#digdir-page [data-color='primary'] .card__icon {
   background-color: var(--ds-color-primary-surface-active);
 }
-#digdir-page [data-color="accent"] .card__icon {
+#digdir-page [data-color='accent'] .card__icon {
   background-color: var(--ds-color-accent-surface-active);
 }
 
-[data-color-scheme="dark"] svg path {
+[data-color-scheme='dark'] svg path {
   fill: var(--ds-color-neutral-text-default);
 }
 

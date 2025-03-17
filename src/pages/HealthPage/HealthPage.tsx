@@ -17,15 +17,17 @@ import {
 } from '../../components';
 
 import { CheckmarkIcon } from '@navikt/aksel-icons';
-import * as stylesheet from '../../../design-tokens-build/helse.css';
+import stylesheet from '../../../design-tokens-build/helse.css?raw';
 import DoctorIcon from '../../assets/doctorIcon';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
 
 export const HealthPage = () => {
   return (
     <>
-      <style href='designsystemet'>{JSON.stringify(stylesheet)}</style>
-      <div id='health-page'>
+      <style href='designsystemet' precedence='higher'>
+        {stylesheet as string}
+      </style>
+      <div id='health-page' data-color-scheme='dark'>
         <Header icon={<DoctorIcon className='doctorIcon' />}>
           <Heading data-size='lg'>Helsen din er viktig</Heading>
           <Paragraph data-size='lg' variant='long'>

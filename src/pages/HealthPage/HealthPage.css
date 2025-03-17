@@ -1,11 +1,9 @@
-@import url('../../../design-tokens-build/helse.css');
-
 .healthCard {
   padding: var(--ds-size-8);
   box-shadow: -9px 9px 0 0 var(--ds-color-surface-tinted);
 }
 
 .doctorIcon {
-  margin-bottom: -35px;
+  margin-bottom: -27px;
   color: var(--ds-color-neutral-text-subtle);
 }
