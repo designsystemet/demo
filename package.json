@@ -13,6 +13,7 @@
 		"tokens": "npm run tokens:create && npm run tokens:build"
 	},
 	"dependencies": {
+		"@biomejs/biome": "^1.9.4",
 		"@digdir/designsystemet": "^1.0.1",
 		"@digdir/designsystemet-css": "^1.0.1",
 		"@digdir/designsystemet-react": "^1.0.1",
