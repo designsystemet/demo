@@ -8,8 +8,8 @@
 }
 
 .icon {
-  height: 46px;
-  width: 46px;
+  height: 44px;
+  width: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,14 +18,14 @@
 }
 
 [data-color="accent"] .icon {
-  background-color: var(--ds-color-accent-surface-active);
+  background-color: var(--ds-color-accent-surface-hover);
 }
 [data-color="extra1"] .icon {
-  background-color: var(--ds-color-extra1-surface-active);
+  background-color: var(--ds-color-extra1-surface-hover);
 }
 [data-color="extra2"] .icon {
-  background-color: var(--ds-color-extra2-surface-active);
+  background-color: var(--ds-color-extra2-surface-hover);
 }
 [data-color="primary"] .icon {
-  background-color: var(--ds-color-primary-surface-active);
+  background-color: var(--ds-color-primary-surface-hover);
 }

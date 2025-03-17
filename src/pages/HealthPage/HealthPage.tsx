@@ -7,6 +7,10 @@ import {
   Paragraph,
   Link,
   Button,
+  Textfield,
+  Checkbox,
+  Label,
+  Textarea,
 } from "@digdir/designsystemet-react";
 import {
   CardSection,
@@ -21,7 +25,11 @@ import {
   EnvelopeClosedIcon,
   PhoneIcon,
   LocationPinIcon,
+  MedicalThermometerIcon,
+  StethoscopeIcon,
+  CheckmarkIcon,
 } from "@navikt/aksel-icons";
+import { ImageSection } from "../../components/ImageSection/ImageSection";
 
 export const HealthPage = () => {
   return (
@@ -35,89 +43,91 @@ export const HealthPage = () => {
         </Paragraph>
         <div className="btn-group">
           <Button data-size="md">Bestill legetime</Button>
-          <Button data-size="md" variant="secondary">
-            Vaksine
-          </Button>
         </div>
       </Header>
 
-      <CardSection title="Hva kan vi hjelpe deg med i dag?">
-        <Card data-color="primary" className="healthCard">
-          <img src="icons/nurse.png" alt="" />
+      <CardSection
+        title="Hva kan vi hjelpe deg med i dag?"
+        data-color="primary"
+      >
+        <Card className="healthCard">
           <Heading data-size="sm">Bytt fastlege</Heading>
           <Paragraph variant="long">
             Most provide as with carried business are much better more the
-            perfected designer. Writing slightly explain desk unable at
+            perfected designer. Writing slightly explain desk unable at the
+            thing to be and also therefore the will
           </Paragraph>
         </Card>
-        <Card data-color="primary" className="healthCard">
-          <img src="icons/doctor.png" alt="" />
+        <Card className="healthCard">
           <Heading data-size="sm">Pasientjournal</Heading>
           <Paragraph variant="long">
             Most provide as with carried business are much better more the
-            perfected designer. Writing slightly explain desk unable at
+            perfected designer. Writing slightly explain desk unable at the
+            thing to be and also therefore the will
           </Paragraph>
         </Card>
-        <Card data-color="primary" className="healthCard">
-          <img src="icons/doctor.png" alt="" />
-          <Heading data-size="sm">Vaksine</Heading>
+        <Card className="healthCard">
+          <Heading data-size="sm">Vaksiner</Heading>
           <Paragraph variant="long">
             Most provide as with carried business are much better more the
-            perfected designer. Writing slightly explain desk unable at
+            perfected designer. Writing slightly explain desk unable at the
+            thing to be and also therefore the will
           </Paragraph>
         </Card>
-        <Card data-color="primary" className="healthCard">
-          <img src="icons/nurse.png" alt="" />
-          <Heading data-size="sm">Bytt fastlege</Heading>
+        <Card className="healthCard">
+          <Heading data-size="sm">Resepter</Heading>
           <Paragraph variant="long">
             Most provide as with carried business are much better more the
-            perfected designer. Writing slightly explain desk unable at .
+            perfected designer. Writing slightly explain desk unable at the
+            thing to be and also therefore the will
           </Paragraph>
         </Card>
-        <Card data-color="primary" className="healthCard">
-          <img src="icons/doctor.png" alt="" />
-          <Heading data-size="sm">Pasientjournal</Heading>
+        <Card className="healthCard">
+          <Heading data-size="sm">Prøvesvar</Heading>
           <Paragraph variant="long">
             Most provide as with carried business are much better more the
-            perfected designer. Writing slightly explain desk unable at
+            perfected designer. Writing slightly explain desk unable at the
+            thing to be and also therefore the will
           </Paragraph>
         </Card>
-        <Card data-color="primary" className="healthCard">
-          <img src="icons/doctor.png" alt="" />
-          <Heading data-size="sm">Vaksine</Heading>
+        <Card className="healthCard">
+          <Heading data-size="sm">Henvinsinger</Heading>
           <Paragraph variant="long">
             Most provide as with carried business are much better more the
-            perfected designer. Writing slightly explain desk unable at
+            perfected designer. Writing slightly explain desk unable at the
+            thing to be and also therefore the will
           </Paragraph>
         </Card>
       </CardSection>
 
-      <ContactSection>
-        <ContactSection.Left>
-          <Heading>Ta kontakt med oss!</Heading>
-          <Paragraph>
-            Future trumpet big or stash about subjective countries of
-            distribution illustrated a in solitary been have he that from have
-            the phase king's fact, people text finds intended not could
+      <ImageSection data-color="primary" flipped>
+        <ImageSection.Left>
+          <Tag data-size="md" className="mb-8">
+            Helse
+          </Tag>
+          <Heading data-size="md" className="mb-8">
+            Vi tar helsen din på alvor
+          </Heading>
+          <Paragraph variant="long" data-size="md">
+            Build answer said may presentations. The decision-making. Room.
+            Didn't impatient point a with was it follow clues making right, its
+            be he different in would a me. Chooses for the than another, release
+            a it a woke sported did of applications be ago. Workers, it named a
+            he judgment, towards.
           </Paragraph>
           <ContactItem
-            text="virksomhet@eksempel.no"
-            icon={<EnvelopeClosedIcon title="a11y-title" />}
+            text="Gratis vaksiner for alle i hele Norge"
+            icon={<CheckmarkIcon title="a11y-title" fontSize="2rem" />}
           />
           <ContactItem
-            text="+47 12345678"
-            icon={<PhoneIcon title="a11y-title" />}
+            text="Lege tilgjengelig hele døgnet"
+            icon={<CheckmarkIcon title="a11y-title" fontSize="2rem" />}
           />
-          <ContactItem
-            text="Økern Portal, Oslo"
-            icon={<LocationPinIcon title="a11y-title" />}
-          />
-          <Paragraph>
-            Please reach out to us via the contact form below.
-          </Paragraph>
-        </ContactSection.Left>
-        <ContactSection.Right>form</ContactSection.Right>
-      </ContactSection>
+        </ImageSection.Left>
+        <ImageSection.Right>
+          <img src="img/health.jpg" alt="" className="rounded" />
+        </ImageSection.Right>
+      </ImageSection>
 
       <Footer data-color-scheme="dark">
         <Footer.Column>

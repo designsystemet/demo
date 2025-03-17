@@ -96,7 +96,7 @@ export const DigdirPage = () => {
       <ImageSection data-color="extra1">
         <ImageSection.Left>
           <Tag data-size="md">Sikkerhet</Tag>
-          <Heading data-size="md" style={{ marginBottom: "16px" }}>
+          <Heading data-size="md" className="mb-8">
             Prioriter Informasjonssikkerhet
           </Heading>
           <Paragraph variant="long" data-size="md">

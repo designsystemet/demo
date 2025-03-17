@@ -6,9 +6,22 @@
   padding: 28px;
   position: relative;
   z-index: 5;
-  box-shadow: -10px 10px 0px 0px var(--ds-color-primary-surface-tinted);
+  box-shadow: -9px 9px 0px 0px var(--ds-color-primary-surface-hover);
 }
 
 .healthCard img {
   height: 50px;
+}
+
+[data-color="extra1"] .healthCard {
+  box-shadow: -9px 9px 0px 0px var(--ds-color-extra1-surface-hover);
+}
+[data-color="extra2"] .healthCard {
+  box-shadow: -9px 9px 0px 0px var(--ds-color-extra2-surface-hover);
+}
+[data-color="accent"] .healthCard {
+  box-shadow: -9px 9px 0px 0px var(--ds-color-accent-surface-hover);
+}
+[data-color="primary"] .healthCard {
+  box-shadow: -9px 9px 0px 0px var(--ds-color-primary-surface-hover);
 }
