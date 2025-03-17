@@ -1,11 +1,9 @@
-@import url("@digdir/designsystemet-css");
-
-@layer ds;
+@import url('@digdir/designsystemet-css');
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  font-feature-settings: "cv05" 1; /* Enable lowercase l with tail */
+  font-feature-settings: 'cv05' 1; /* Enable lowercase l with tail */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -54,7 +52,7 @@ body {
 
 .btn-group {
   display: flex;
-  margin-top: 4px;
+  margin-top: var(--ds-size1);
   gap: var(--ds-size-6);
 }
 

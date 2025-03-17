@@ -5,10 +5,6 @@
   z-index: 100;
 }
 
-[data-color-scheme="dark"] .topbar svg path {
-  fill: var(--ds-color-neutral-text-default);
-}
-
 .topbarContainer {
   display: flex;
   justify-content: space-between;

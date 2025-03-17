@@ -1,8 +1,9 @@
-import { Topbar } from "../Topbar/Topbar";
-import classes from "./Header.module.css";
+import type { ReactNode } from 'react';
+import { Topbar } from '../Topbar/Topbar';
+import classes from './Header.module.css';
 
 type HeaderProps = {
-  imgSrc?: string;
+  icon?: ReactNode;
   backgroundSrc?: string;
   children?: React.ReactNode;
 } & React.HTMLAttributes<HTMLElement>;
@@ -10,7 +11,7 @@ type HeaderProps = {
 export const Header = ({
   backgroundSrc,
   children,
-  imgSrc,
+  icon,
   ...props
 }: HeaderProps) => {
   return (
@@ -22,9 +23,7 @@ export const Header = ({
       <Topbar />
       <div className={`${classes.headerContainer} container`}>
         <div className={classes.left}>{children}</div>
-        <div className={classes.right}>
-          {imgSrc && <img src={imgSrc} alt="" />}
-        </div>
+        <div className={classes.right}>{icon}</div>
       </div>
     </header>
   );
