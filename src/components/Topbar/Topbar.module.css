@@ -36,10 +36,6 @@
   margin-right: auto;
 }
 
-.btn {
-  color: var(--ds-color-neutral-text-default);
-}
-
 .btn svg {
   font-size: 1.6rem;
 }

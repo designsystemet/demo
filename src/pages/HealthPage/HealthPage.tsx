@@ -25,7 +25,7 @@ export const HealthPage = () => {
   return (
     <>
       <style href='designsystemet-theme'>{stylesheet as string}</style>
-      <div id='health-page' data-color-scheme='dark'>
+      <div id='health-page'>
         <Header icon={<DoctorIcon className='doctorIcon' />}>
           <Heading data-size='lg'>Helsen din er viktig</Heading>
           <Paragraph data-size='lg' variant='long'>
@@ -39,7 +39,7 @@ export const HealthPage = () => {
         </Header>
 
         <CardSection title='Hva kan vi hjelpe deg med i dag?'>
-          <Card className='healthCard' data-color='extra1'>
+          <Card className='healthCard'>
             <Heading data-size='sm'>Bytt fastlege</Heading>
             <Paragraph variant='long'>
               Most provide as with carried business are much better more the
@@ -89,7 +89,7 @@ export const HealthPage = () => {
           </Card>
         </CardSection>
 
-        <ImageSection data-color='primary' flipped>
+        <ImageSection flipped>
           <ImageSection.Left>
             <Tag data-size='md' className='mb-8'>
               Helse
@@ -118,7 +118,7 @@ export const HealthPage = () => {
           </ImageSection.Right>
         </ImageSection>
 
-        <Footer data-color-scheme='dark'>
+        <Footer>
           <Footer.Column>
             <Logo />
             <Paragraph data-size='sm' variant='long'>

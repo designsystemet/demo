@@ -36,14 +36,14 @@ export const Topbar = () => {
             </defs>
           </svg>
         </div>
-        <div className={classes.middle}>
+        <div className={classes.middle} data-color='neutral'>
           <ul className={classes.menu}>
             <li className={classes.menuItem}>MenyPunkt 1</li>
             <li className={classes.menuItem}>MenyPunkt 2</li>
             <li className={classes.menuItem}>MenyPunkt 3</li>
           </ul>
         </div>
-        <div className={classes.right}>
+        <div className={classes.right} data-color='neutral'>
           <Button className={classes.btn} variant='tertiary'>
             <GlobeIcon aria-label='språk' />
             Språk
