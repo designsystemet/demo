@@ -1,6 +1,6 @@
 .header {
   height: 500px;
-  background-color: var(--ds-color-primary-surface-active);
+  background-color: var(--ds-color-surface-active);
   background-size: cover;
 }
 
@@ -28,17 +28,4 @@
 
 .header img {
   margin-bottom: -35px;
-}
-
-[data-color="extra1"].header {
-  background-color: var(--ds-color-extra1-surface-active);
-}
-[data-color="extra2"].header {
-  background-color: var(--ds-color-extra2-surface-active);
-}
-[data-color="accent"].header {
-  background-color: var(--ds-color-accent-surface-active);
-}
-[data-color="primary"].header {
-  background-color: var(--ds-color-primary-surface-active);
 }

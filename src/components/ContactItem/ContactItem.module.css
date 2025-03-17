@@ -15,17 +15,5 @@
   justify-content: center;
   border-radius: 50%;
   font-size: 1.6rem;
-}
-
-[data-color="accent"] .icon {
-  background-color: var(--ds-color-accent-surface-hover);
-}
-[data-color="extra1"] .icon {
-  background-color: var(--ds-color-extra1-surface-hover);
-}
-[data-color="extra2"] .icon {
-  background-color: var(--ds-color-extra2-surface-hover);
-}
-[data-color="primary"] .icon {
-  background-color: var(--ds-color-primary-surface-hover);
+  background-color: var(--ds-color-surface-hover);
 }

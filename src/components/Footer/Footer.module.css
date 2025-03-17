@@ -16,10 +16,6 @@
   gap: var(--ds-size-8);
 }
 
-[data-color-scheme="dark"] .footer svg path {
-  fill: var(--ds-color-neutral-text-default);
-}
-
 .bottom {
   background-color: var(--ds-color-neutral-background-tinted);
   padding: 24px 0;
