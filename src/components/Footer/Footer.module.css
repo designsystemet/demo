@@ -1,12 +1,11 @@
 .footer {
-  background-color: black;
-  padding: 72px 0;
+  background-color: var(--ds-color-neutral-surface-default);
+  padding-top: 80px;
 }
 
 .footerColumns {
   display: flex;
-
-  gap: var(--ds-size-6);
+  gap: var(--ds-size-18);
   width: 100%;
 }
 
@@ -14,5 +13,32 @@
   width: 33%;
   display: flex;
   flex-direction: column;
-  gap: var(--ds-size-6);
+  gap: var(--ds-size-8);
+}
+
+[data-color-scheme="dark"] .footer svg path {
+  fill: var(--ds-color-neutral-text-default);
+}
+
+.bottom {
+  background-color: var(--ds-color-neutral-background-tinted);
+  padding: 24px 0;
+  margin-top: 72px;
+}
+
+.bottom p {
+  color: var(--ds-color-neutral-text-subtle);
+}
+
+.footer a {
+  color: inherit;
+  text-underline-offset: 6px;
+}
+
+.footer h2 {
+  margin-bottom: -6px;
+}
+
+.footer svg {
+  margin-bottom: -10px;
 }

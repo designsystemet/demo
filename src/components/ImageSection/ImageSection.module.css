@@ -1,0 +1,44 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 96px 0;
+}
+
+.flipped {
+  flex-direction: row-reverse;
+}
+
+.section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sectionContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 192px;
+}
+
+.leftRegion {
+  flex: 0 1 55%;
+}
+
+.rightRegion {
+  flex: 0 1 28%;
+}
+
+[data-color="extra1"].section {
+  background-color: var(--ds-color-extra1-background-tinted);
+}
+[data-color="extra2"].section {
+  background-color: var(--ds-color-extra2-background-tinted);
+}
+[data-color="accent"].section {
+  background-color: var(--ds-color-accent-background-tinted);
+}
+[data-color="primary"].section {
+  background-color: var(--ds-color-primary-background-tinted);
+}

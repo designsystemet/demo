@@ -2,9 +2,14 @@ import { Heading, Search } from "@digdir/designsystemet-react";
 import { Topbar } from "../Topbar/Topbar";
 import classes from "./SearchHeader.module.css";
 
-export const SearchHeader = () => {
+type SearchHeaderProps = {
+  title: string;
+};
+
+export const SearchHeader = ({ title }: SearchHeaderProps) => {
   return (
     <header className={classes.searchHeader} data-color-scheme="dark">
+      <div className={classes.overlay}></div>
       <Topbar />
       <div className="container">
         <img
@@ -13,16 +18,13 @@ export const SearchHeader = () => {
           alt=""
         />
         <div className={classes.searchContainer}>
-          <Heading data-size="md">Hva kan vi hjelpe deg med?</Heading>
+          <Heading data-size="lg">{title}</Heading>
           <Search
             data-size="lg"
             data-color-scheme="light"
             className={classes.search}
           >
-            <Search.Input
-              aria-label="Søk"
-              placeholder="Søk i hele Digdir universet"
-            />
+            <Search.Input aria-label="Søk" placeholder="Søk her..." />
             <Search.Clear />
           </Search>
         </div>

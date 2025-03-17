@@ -1,3 +1,4 @@
+import { Paragraph } from "@digdir/designsystemet-react";
 import classes from "./Footer.module.css";
 
 interface FooterProps extends React.HTMLAttributes<HTMLElement> {
@@ -10,6 +11,11 @@ export const Footer = ({ children, ...props }: FooterProps) => {
       <div className="container">
         <div className={classes.footerContent}>
           <div className={classes.footerColumns}>{children}</div>
+        </div>
+      </div>
+      <div className={classes.bottom}>
+        <div className="container">
+          <Paragraph data-size="sm">© 2025 Din virksomhet</Paragraph>
         </div>
       </div>
     </footer>

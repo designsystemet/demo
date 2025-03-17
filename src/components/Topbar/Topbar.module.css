@@ -1,5 +1,8 @@
 .topbar {
-  padding-top: 24px;
+  padding-top: 28px;
+  color: var(--ds-color-neutral-text-default);
+  position: relative;
+  z-index: 100;
 }
 
 [data-color-scheme="dark"] .topbar svg path {
@@ -35,6 +38,10 @@
 
 .middle {
   margin-right: auto;
+}
+
+.btn {
+  color: var(--ds-color-neutral-text-default);
 }
 
 .btn svg {

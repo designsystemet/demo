@@ -5,3 +5,5 @@ export { ContactSection } from "./ContactSection/ContactSection";
 export { Footer } from "./Footer/Footer";
 export { ContactItem } from "./ContactItem/ContactItem";
 export { SearchHeader } from "./SearchHeader/SearchHeader";
+export { Logo } from "./Logo/Logo";
+export { ContactForm } from "./ContactForm/ContactForm";

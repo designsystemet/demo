@@ -1,17 +1,31 @@
 .contactItem {
   display: flex;
   align-items: center;
-  gap: var(--ds-size-6);
+  gap: var(--ds-size-4);
   margin-top: 24px;
+  margin-bottom: 32px;
+  font-size: 18px;
 }
 
 .icon {
-  height: 48px;
-  width: 48px;
+  height: 46px;
+  width: 46px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 160, 160);
   border-radius: 50%;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+}
+
+[data-color="accent"] .icon {
+  background-color: var(--ds-color-accent-surface-active);
+}
+[data-color="extra1"] .icon {
+  background-color: var(--ds-color-extra1-surface-active);
+}
+[data-color="extra2"] .icon {
+  background-color: var(--ds-color-extra2-surface-active);
+}
+[data-color="primary"] .icon {
+  background-color: var(--ds-color-primary-surface-active);
 }

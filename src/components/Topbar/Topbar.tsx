@@ -4,7 +4,7 @@ import { Button } from "@digdir/designsystemet-react";
 
 export const Topbar = () => {
   return (
-    <div className={classes.topbar}>
+    <div className={classes.topbar} data-color="neutral">
       <div className={`${classes.topbarContainer} container`}>
         <div className={classes.left}>
           <svg

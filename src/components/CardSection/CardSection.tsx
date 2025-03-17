@@ -1,16 +1,25 @@
 import classes from "./CardSection.module.css";
 import { Heading } from "@digdir/designsystemet-react";
+import cl from "clsx/lite";
 
 type CardSectionProps = {
   title: string;
   children: React.ReactNode;
-};
+  centered?: boolean;
+} & React.HTMLAttributes<HTMLElement>;
 
-export const CardSection = ({ title, children }: CardSectionProps) => {
+export const CardSection = ({
+  title,
+  children,
+  centered,
+  ...props
+}: CardSectionProps) => {
   return (
-    <section className={classes.cardSection}>
+    <section className={cl(classes.cardSection)} {...props}>
       <div className="container">
-        <Heading data-size="md">{title}</Heading>
+        <Heading data-size="md" className={centered ? classes.centered : ""}>
+          {title}
+        </Heading>
         <div className={classes.content}>{children}</div>
       </div>
     </section>

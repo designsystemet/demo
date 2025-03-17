@@ -1,0 +1,18 @@
+@import url("../../../design-tokens-build/miljo.css");
+
+@layer potet;
+
+.myCard {
+  border: none;
+}
+
+.myCard img {
+  border-radius: 16px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.ds-button {
+  padding-left: 18px;
+  padding-right: 18px;
+}

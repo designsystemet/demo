@@ -1,4 +1,3 @@
-@import url("../design-tokens-build/miljo.css");
 @import url("@digdir/designsystemet-css");
 
 @layer ds;
@@ -25,5 +24,36 @@ body {
 .tags {
   display: flex;
   gap: var(--ds-size-4);
-  margin-bottom: var(--ds-size-16);
+  margin-bottom: -4px;
+  margin-top: 24px;
+}
+
+.form {
+  background-color: white;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form__textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form__textarea textarea {
+  height: 85px;
+}
+
+.form__btn {
+  align-self: flex-start;
+}
+
+.btn-group {
+  display: flex;
+  margin-top: 4px;
+  gap: var(--ds-size-6);
 }

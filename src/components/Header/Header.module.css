@@ -1,6 +1,6 @@
 .header {
   height: 500px;
-  background-color: rgb(252, 169, 255);
+  background-color: var(--ds-color-primary-surface-active);
   background-size: cover;
 }
 
@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 200px;
-  height: 400px;
+  height: 405px;
 }
 
 .left {
@@ -21,6 +21,24 @@
 
 .btnGroup {
   display: flex;
-  gap: var(--ds-size-8);
+  gap: var(--ds-size-7);
   width: 50%;
+  margin-top: 6px;
+}
+
+.header img {
+  margin-bottom: -35px;
+}
+
+[data-color="extra1"].header {
+  background-color: var(--ds-color-extra1-surface-active);
+}
+[data-color="extra2"].header {
+  background-color: var(--ds-color-extra2-surface-active);
+}
+[data-color="accent"].header {
+  background-color: var(--ds-color-accent-surface-active);
+}
+[data-color="primary"].header {
+  background-color: var(--ds-color-primary-surface-active);
 }
