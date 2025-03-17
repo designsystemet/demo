@@ -32,7 +32,7 @@ import stylesheet from '../../../design-tokens-build/miljo.css?raw';
 export const ClimatePage = () => {
   return (
     <>
-      <style href='designsystemet'>{stylesheet as string}</style>
+      <style href='designsystemet-theme'>{stylesheet as string}</style>
       <div id='climate-page'>
         <Header backgroundSrc='img/climate.png'>
           <Heading data-size='lg'>Fornybar energi</Heading>

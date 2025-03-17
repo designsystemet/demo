@@ -24,7 +24,7 @@ import { Logo } from '../../components/Logo/Logo';
 export const DigdirPage = () => {
   return (
     <>
-      <style href='designsystemet'>{stylesheet as string}</style>
+      <style href='designsystemet-theme'>{stylesheet as string}</style>
       <div id='digdir-page'>
         <SearchHeader title='Søk etter dokumenter' />
 
