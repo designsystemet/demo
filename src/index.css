@@ -65,3 +65,8 @@ body {
 .mb-8 {
   margin-bottom: 16px;
 }
+
+.doctorIcon {
+  margin-bottom: -58px;
+  color: var(--ds-color-neutral-text-subtle);
+}

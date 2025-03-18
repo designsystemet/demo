@@ -24,9 +24,8 @@ import { ImageSection } from '../../components/ImageSection/ImageSection';
 export const HealthPage = () => {
   return (
     <>
-      <style href='designsystemet-theme'>{stylesheet as string}</style>
-      <div id='health-page'>
-        <Header icon={<DoctorIcon className='doctorIcon' />}>
+      <div>
+        <Header icon={<DoctorIcon />}>
           <Heading level={1} data-size='lg'>
             Helsen din er viktig
           </Heading>
@@ -143,6 +142,7 @@ export const HealthPage = () => {
           </Footer.Column>
         </Footer>
       </div>
+      <style href='designsystemet-theme'>{stylesheet as string}</style>
     </>
   );
 };

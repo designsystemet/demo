@@ -1,6 +1,7 @@
-const DoctorIcon = ({ className }: { className: string }) => (
+const DoctorIcon = () => (
   <svg
-    className={className}
+    className='doctorIcon'
+    aria-hidden='true'
     width={300}
     height={393}
     viewBox='0 0 300 393'
