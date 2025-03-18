@@ -18,7 +18,7 @@ import {
 } from '../../components';
 
 import { CheckmarkIcon } from '@navikt/aksel-icons';
-import stylesheet from '../../../design-tokens-build/helse.css';
+import stylesheet from '../../../design-tokens-build/helse.css?raw';
 import DoctorIcon from '../../assets/doctorIcon';
 
 export default function App() {
@@ -34,8 +34,8 @@ export default function App() {
             distribution illustrated a in solitary been have he that from have
             the phase king's fact, people text finds intended not could
           </Paragraph>
-          <div className='btn-group'>
-            <Button data-size='md'>Bestill legetime</Button>
+          <div>
+            <Button data-size='lg'>Bestill legetime</Button>
           </div>
         </Header>
 
