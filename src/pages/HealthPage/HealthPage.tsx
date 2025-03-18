@@ -13,15 +13,15 @@ import {
   ContactItem,
   Footer,
   Header,
+  ImageSection,
   Logo,
 } from '../../components';
 
 import { CheckmarkIcon } from '@navikt/aksel-icons';
-import stylesheet from '../../../design-tokens-build/helse.css?raw';
+import stylesheet from '../../../design-tokens-build/helse.css';
 import DoctorIcon from '../../assets/doctorIcon';
-import { ImageSection } from '../../components/ImageSection/ImageSection';
 
-export const HealthPage = () => {
+export default function App() {
   return (
     <>
       <div>
@@ -145,4 +145,4 @@ export const HealthPage = () => {
       <style href='designsystemet-theme'>{stylesheet as string}</style>
     </>
   );
-};
+}
