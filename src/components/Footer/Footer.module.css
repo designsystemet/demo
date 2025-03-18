@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--ds-color-neutral-surface-default);
+  background-color: var(--ds-color-background-default);
   padding-top: 80px;
 }
 
@@ -17,13 +17,13 @@
 }
 
 .bottom {
-  background-color: var(--ds-color-neutral-background-tinted);
+  background-color: var(--ds-color-background-default);
   padding: 24px 0;
   margin-top: 72px;
 }
 
 .bottom p {
-  color: var(--ds-color-neutral-text-subtle);
+  color: var(--ds-color-text-subtle);
 }
 
 .footer a {
