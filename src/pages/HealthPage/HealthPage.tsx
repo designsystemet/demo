@@ -27,7 +27,9 @@ export const HealthPage = () => {
       <style href='designsystemet-theme'>{stylesheet as string}</style>
       <div id='health-page'>
         <Header icon={<DoctorIcon className='doctorIcon' />}>
-          <Heading data-size='lg'>Helsen din er viktig</Heading>
+          <Heading level={1} data-size='lg'>
+            Helsen din er viktig
+          </Heading>
           <Paragraph data-size='lg' variant='long'>
             Future trumpet big or stash about subjective countries of
             distribution illustrated a in solitary been have he that from have

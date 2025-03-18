@@ -1,14 +1,14 @@
-import { HealthPage, DigdirPage, ClimatePage } from "./pages";
-import { Routes, Route } from "react-router-dom";
+import { Link, Route, Routes } from 'react-router-dom';
+import { ClimatePage, DigdirPage, HealthPage } from './pages';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Routes>
-        <Route path="/" element={<NavPage />} />
-        <Route path="digdir" element={<DigdirPage />} />
-        <Route path="climate" element={<ClimatePage />} />
-        <Route path="health" element={<HealthPage />} />
+        <Route path='/' element={<NavPage />} />
+        <Route path='digdir' element={<DigdirPage />} />
+        <Route path='climate' element={<ClimatePage />} />
+        <Route path='health' element={<HealthPage />} />
       </Routes>
     </div>
   );
@@ -21,13 +21,13 @@ const NavPage = () => {
       <p>Please select a page from the navigation.</p>
       <ul>
         <li>
-          <a href="/digdir">Digdir</a>
+          <Link to='/digdir'>Digdir</Link>
         </li>
         <li>
-          <a href="/climate">Climate</a>
+          <Link to='/climate'>Climate</Link>
         </li>
         <li>
-          <a href="/health">Health</a>
+          <Link to='/health'>Health</Link>
         </li>
       </ul>
     </div>

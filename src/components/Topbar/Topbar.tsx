@@ -4,7 +4,7 @@ import classes from './Topbar.module.css';
 
 export const Topbar = () => {
   return (
-    <div className={classes.topbar} data-color='neutral'>
+    <div className={classes.topbar}>
       <div className={`${classes.topbarContainer} container`}>
         <div className={classes.left}>
           <svg
@@ -36,14 +36,14 @@ export const Topbar = () => {
             </defs>
           </svg>
         </div>
-        <div className={classes.middle} data-color='neutral'>
+        <div className={classes.middle}>
           <ul className={classes.menu}>
             <li className={classes.menuItem}>MenyPunkt 1</li>
             <li className={classes.menuItem}>MenyPunkt 2</li>
             <li className={classes.menuItem}>MenyPunkt 3</li>
           </ul>
         </div>
-        <div className={classes.right} data-color='neutral'>
+        <div className={classes.right}>
           <Button className={classes.btn} variant='tertiary'>
             <GlobeIcon aria-label='språk' />
             Språk
