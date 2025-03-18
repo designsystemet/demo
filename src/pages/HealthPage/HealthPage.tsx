@@ -24,7 +24,7 @@ import DoctorIcon from '../../assets/doctorIcon';
 export default function App() {
   return (
     <>
-      <div>
+      <div className='app'>
         <Header icon={<DoctorIcon />}>
           <Heading level={1} data-size='lg'>
             Helsen din er viktig
