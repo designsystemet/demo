@@ -98,7 +98,7 @@ export default function App() {
             <Heading data-size='md' className='mb-8'>
               Vi tar helsen din på alvor
             </Heading>
-            <Paragraph variant='long' data-size='md'>
+            <Paragraph variant='long'>
               Build answer said may presentations. The decision-making. Room.
               Didn't impatient point a with was it follow clues making right,
               its be he different in would a me. Chooses for the than another,
