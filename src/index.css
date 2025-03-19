@@ -63,7 +63,7 @@ body {
 }
 
 .mb-8 {
-  margin-bottom: 16px;
+  margin-bottom: var(--ds-size-8);
 }
 
 .doctorIcon {

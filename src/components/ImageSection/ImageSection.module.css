@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 96px 0;
+  color: var(--ds-color-text-default);
   background-color: var(--ds-color-background-tinted);
 }
 
