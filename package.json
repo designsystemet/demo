@@ -14,7 +14,7 @@
 	},
 	"dependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@digdir/designsystemet": "^1.0.1",
+		"@digdir/designsystemet": "^0.0.0-test-20250424120827",
 		"@digdir/designsystemet-css": "^1.0.1",
 		"@digdir/designsystemet-react": "^1.0.1",
 		"@digdir/designsystemet-theme": "^1.0.1",
