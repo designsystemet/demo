@@ -1,0 +1,23 @@
+{
+  "$schema": "../node_modules/@digdir/designsystemet/dist/config.schema.json",
+  "clean": true,
+  "themes": {
+    "demo": {
+      "colors": {
+        "main": {
+          "primary": "#660DB4",
+          "accent": "#51abf0"
+        },
+        "support": {
+          "extra1": "#176b7f",
+          "extra2": "#274a92"
+        },
+        "neutral": "#1E2B3C"
+      },
+      "typography": {
+        "fontFamily": "Inter"
+      },
+      "borderRadius": 4
+    }
+  }
+}

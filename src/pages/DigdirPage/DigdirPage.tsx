@@ -17,14 +17,12 @@ import {
   TasklistIcon,
   ThumbUpIcon,
 } from '@navikt/aksel-icons';
-import stylesheet from '../../../design-tokens-build/digdir.css?raw';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
 import { Logo } from '../../components/Logo/Logo';
 
 export const DigdirPage = () => {
   return (
     <>
-      <style href='designsystemet-theme'>{stylesheet as string}</style>
       <div id='digdir-page'>
         <SearchHeader title='Søk etter dokumenter' />
 

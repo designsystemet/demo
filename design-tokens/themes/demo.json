@@ -3,350 +3,350 @@
     "primary": {
       "1": {
         "$type": "color",
-        "$value": "{helse.primary.1}"
+        "$value": "{demo.primary.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{helse.primary.2}"
+        "$value": "{demo.primary.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{helse.primary.3}"
+        "$value": "{demo.primary.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{helse.primary.4}"
+        "$value": "{demo.primary.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{helse.primary.5}"
+        "$value": "{demo.primary.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{helse.primary.6}"
+        "$value": "{demo.primary.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{helse.primary.7}"
+        "$value": "{demo.primary.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{helse.primary.8}"
+        "$value": "{demo.primary.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{helse.primary.9}"
+        "$value": "{demo.primary.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{helse.primary.10}"
+        "$value": "{demo.primary.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{helse.primary.11}"
+        "$value": "{demo.primary.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{helse.primary.12}"
+        "$value": "{demo.primary.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{helse.primary.13}"
+        "$value": "{demo.primary.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{helse.primary.14}"
+        "$value": "{demo.primary.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{helse.primary.15}"
+        "$value": "{demo.primary.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{helse.primary.16}"
+        "$value": "{demo.primary.16}"
       }
     },
     "accent": {
       "1": {
         "$type": "color",
-        "$value": "{helse.accent.1}"
+        "$value": "{demo.accent.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{helse.accent.2}"
+        "$value": "{demo.accent.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{helse.accent.3}"
+        "$value": "{demo.accent.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{helse.accent.4}"
+        "$value": "{demo.accent.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{helse.accent.5}"
+        "$value": "{demo.accent.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{helse.accent.6}"
+        "$value": "{demo.accent.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{helse.accent.7}"
+        "$value": "{demo.accent.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{helse.accent.8}"
+        "$value": "{demo.accent.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{helse.accent.9}"
+        "$value": "{demo.accent.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{helse.accent.10}"
+        "$value": "{demo.accent.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{helse.accent.11}"
+        "$value": "{demo.accent.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{helse.accent.12}"
+        "$value": "{demo.accent.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{helse.accent.13}"
+        "$value": "{demo.accent.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{helse.accent.14}"
+        "$value": "{demo.accent.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{helse.accent.15}"
+        "$value": "{demo.accent.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{helse.accent.16}"
+        "$value": "{demo.accent.16}"
       }
     },
     "neutral": {
       "1": {
         "$type": "color",
-        "$value": "{helse.neutral.1}"
+        "$value": "{demo.neutral.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{helse.neutral.2}"
+        "$value": "{demo.neutral.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{helse.neutral.3}"
+        "$value": "{demo.neutral.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{helse.neutral.4}"
+        "$value": "{demo.neutral.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{helse.neutral.5}"
+        "$value": "{demo.neutral.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{helse.neutral.6}"
+        "$value": "{demo.neutral.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{helse.neutral.7}"
+        "$value": "{demo.neutral.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{helse.neutral.8}"
+        "$value": "{demo.neutral.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{helse.neutral.9}"
+        "$value": "{demo.neutral.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{helse.neutral.10}"
+        "$value": "{demo.neutral.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{helse.neutral.11}"
+        "$value": "{demo.neutral.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{helse.neutral.12}"
+        "$value": "{demo.neutral.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{helse.neutral.13}"
+        "$value": "{demo.neutral.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{helse.neutral.14}"
+        "$value": "{demo.neutral.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{helse.neutral.15}"
+        "$value": "{demo.neutral.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{helse.neutral.16}"
+        "$value": "{demo.neutral.16}"
       }
     },
     "extra1": {
       "1": {
         "$type": "color",
-        "$value": "{helse.extra1.1}"
+        "$value": "{demo.extra1.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{helse.extra1.2}"
+        "$value": "{demo.extra1.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{helse.extra1.3}"
+        "$value": "{demo.extra1.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{helse.extra1.4}"
+        "$value": "{demo.extra1.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{helse.extra1.5}"
+        "$value": "{demo.extra1.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{helse.extra1.6}"
+        "$value": "{demo.extra1.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{helse.extra1.7}"
+        "$value": "{demo.extra1.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{helse.extra1.8}"
+        "$value": "{demo.extra1.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{helse.extra1.9}"
+        "$value": "{demo.extra1.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{helse.extra1.10}"
+        "$value": "{demo.extra1.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{helse.extra1.11}"
+        "$value": "{demo.extra1.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{helse.extra1.12}"
+        "$value": "{demo.extra1.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{helse.extra1.13}"
+        "$value": "{demo.extra1.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{helse.extra1.14}"
+        "$value": "{demo.extra1.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{helse.extra1.15}"
+        "$value": "{demo.extra1.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{helse.extra1.16}"
+        "$value": "{demo.extra1.16}"
       }
     },
     "extra2": {
       "1": {
         "$type": "color",
-        "$value": "{helse.extra2.1}"
+        "$value": "{demo.extra2.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{helse.extra2.2}"
+        "$value": "{demo.extra2.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{helse.extra2.3}"
+        "$value": "{demo.extra2.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{helse.extra2.4}"
+        "$value": "{demo.extra2.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{helse.extra2.5}"
+        "$value": "{demo.extra2.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{helse.extra2.6}"
+        "$value": "{demo.extra2.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{helse.extra2.7}"
+        "$value": "{demo.extra2.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{helse.extra2.8}"
+        "$value": "{demo.extra2.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{helse.extra2.9}"
+        "$value": "{demo.extra2.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{helse.extra2.10}"
+        "$value": "{demo.extra2.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{helse.extra2.11}"
+        "$value": "{demo.extra2.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{helse.extra2.12}"
+        "$value": "{demo.extra2.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{helse.extra2.13}"
+        "$value": "{demo.extra2.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{helse.extra2.14}"
+        "$value": "{demo.extra2.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{helse.extra2.15}"
+        "$value": "{demo.extra2.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{helse.extra2.16}"
+        "$value": "{demo.extra2.16}"
       }
     }
   },
   "font-family": {
     "$type": "fontFamilies",
-    "$value": "{helse.font-family}"
+    "$value": "{demo.font-family}"
   },
   "font-weight": {
     "medium": {
       "$type": "fontWeights",
-      "$value": "{helse.font-weight.medium}"
+      "$value": "{demo.font-weight.medium}"
     },
     "semibold": {
       "$type": "fontWeights",
-      "$value": "{helse.font-weight.semibold}"
+      "$value": "{demo.font-weight.semibold}"
     },
     "regular": {
       "$type": "fontWeights",
-      "$value": "{helse.font-weight.regular}"
+      "$value": "{demo.font-weight.regular}"
     }
   },
   "border-radius": {

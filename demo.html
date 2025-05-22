@@ -6,16 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Designsystemet</title>
   <link rel="stylesheet" href="https://altinncdn.no/fonts/inter/inter.css" />
-  <link rel="stylesheet" href="src/index.css" />
-  <!-- Custom theme from https://theme.designsystemet.no -->
-  <link rel="stylesheet" href="design-tokens-build/patentstyret.css" />
-  <!-- Digdir theme -->
-  <!-- <link rel="stylesheet" href="node_modules/@digdir/designsystemet-theme/brand/digdir.css" /> -->
-  <link rel="stylesheet" href="node_modules/@digdir/designsystemet-css/dist/src/index.css" />
+  <style>
+    /* User defined theme */
+    @import url('design-tokens-build/demo.css');
+    @import url('node_modules/@digdir/designsystemet-css/dist/src/index.css');
+
+    :root {
+      font-family: var(--ds-font-family), system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+      font-feature-settings: 'cv05' 1;
+      /* Enable lowercase l with tail */
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+    }
+
+    .demo {
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: var(--ds-size-4);
+    }
+
+    .shoppinglist {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .user {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .help {
+      width: 100%;
+      max-width: 400px;
+
+    }
+  </style>
 </head>
 
-<body data-color="primary" data-color-scheme="light">
-  <div class="components">
+<body>
+  <div class="demo">
     <div class="card shoppinglist">
       <fieldset class="ds-fieldset">
         <legend class="ds-label" data-weight="medium">Handleliste</legend>
@@ -64,7 +102,7 @@
       <a class="ds-link" href="#">Glemt passord?</a>
       <button class="ds-button" data-variant="primary" type="button">Opprett ny bruker</button>
     </div>
-    <div class="card help" data-color="katt">
+    <div class="card help">
       <h2 class="ds-heading" data-size="2xs">Dyr</h2>
       <div class="ds-card">
         <h2 class="ds-heading">Tamkatt 🐈</h2>

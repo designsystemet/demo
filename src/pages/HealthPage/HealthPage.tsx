@@ -18,7 +18,7 @@ import {
 } from '../../components';
 
 import { CheckmarkIcon } from '@navikt/aksel-icons';
-import stylesheet from '../../../design-tokens-build/helse.css?raw';
+
 import DoctorIcon from '../../assets/doctorIcon';
 
 export default function App() {
@@ -142,7 +142,6 @@ export default function App() {
           </Footer.Column>
         </Footer>
       </div>
-      <style href='designsystemet-theme'>{stylesheet as string}</style>
     </>
   );
 }
