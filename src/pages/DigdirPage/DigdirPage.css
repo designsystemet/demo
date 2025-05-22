@@ -42,3 +42,7 @@
 #digdir-page .ds-tag {
   margin-bottom: 16px;
 }
+
+.mb-8 {
+  margin-bottom: var(--ds-size-8);
+}

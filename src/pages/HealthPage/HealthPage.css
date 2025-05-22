@@ -2,3 +2,18 @@
   padding: var(--ds-size-8);
   box-shadow: -9px 9px 0 0 var(--ds-color-surface-tinted);
 } */
+
+.rounded {
+  border-radius: 50%;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.mb-8 {
+  margin-bottom: var(--ds-size-8);
+}
+
+.doctorIcon {
+  margin-bottom: -58px;
+  color: var(--ds-color-neutral-text-subtle);
+}

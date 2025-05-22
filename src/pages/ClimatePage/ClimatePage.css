@@ -14,3 +14,40 @@
   padding-left: 18px;
   padding-right: 18px;
 }
+
+.tags {
+  display: flex;
+  gap: var(--ds-size-4);
+  margin-bottom: -4px;
+  margin-top: var(--ds-size-4);
+}
+
+.form {
+  background-color: var(--ds-color-background-default);
+  padding: var(--ds-size-8);
+  border-radius: var(--ds-radius-2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-size-6);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form__textarea {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-size-2);
+}
+
+.form__textarea textarea {
+  height: 85px;
+}
+
+.form__btn {
+  align-self: flex-start;
+}
+
+.btn-group {
+  display: flex;
+  margin-top: var(--ds-size1);
+  gap: var(--ds-size-6);
+}
