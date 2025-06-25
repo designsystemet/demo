@@ -24,24 +24,24 @@ import DoctorIcon from '../../assets/doctorIcon';
 export default function App() {
   return (
     <>
-      <div className='app'>
+      <div className='app' data-color-scheme="auto">
         <Header icon={<DoctorIcon />}>
-          <Heading level={1} data-size='lg'>
+          <Heading level={1} >
             Helsen din er viktig
           </Heading>
-          <Paragraph data-size='lg' variant='long'>
+          <Paragraph variant='long'>
             Future trumpet big or stash about subjective countries of
             distribution illustrated a in solitary been have he that from have
             the phase king's fact, people text finds intended not could
           </Paragraph>
           <div>
-            <Button data-size='lg'>Bestill legetime</Button>
+            <Button >Bestill legetime</Button>
           </div>
         </Header>
 
         <CardSection title='Hva kan vi hjelpe deg med i dag?'>
           <Card className='healthCard'>
-            <Heading data-size='sm'>Bytt fastlege</Heading>
+            <Heading >Bytt fastlege</Heading>
             <Paragraph variant='long'>
               Most provide as with carried business are much better more the
               perfected designer. Writing slightly explain desk unable at the
@@ -49,7 +49,7 @@ export default function App() {
             </Paragraph>
           </Card>
           <Card className='healthCard'>
-            <Heading data-size='sm'>Pasientjournal</Heading>
+            <Heading >Pasientjournal</Heading>
             <Paragraph variant='long'>
               Most provide as with carried business are much better more the
               perfected designer. Writing slightly explain desk unable at the
@@ -57,7 +57,7 @@ export default function App() {
             </Paragraph>
           </Card>
           <Card className='healthCard'>
-            <Heading data-size='sm'>Vaksiner</Heading>
+            <Heading >Vaksiner</Heading>
             <Paragraph variant='long'>
               Most provide as with carried business are much better more the
               perfected designer. Writing slightly explain desk unable at the
@@ -65,7 +65,7 @@ export default function App() {
             </Paragraph>
           </Card>
           <Card className='healthCard'>
-            <Heading data-size='sm'>Resepter</Heading>
+            <Heading >Resepter</Heading>
             <Paragraph variant='long'>
               Most provide as with carried business are much better more the
               perfected designer. Writing slightly explain desk unable at the
@@ -73,7 +73,7 @@ export default function App() {
             </Paragraph>
           </Card>
           <Card className='healthCard'>
-            <Heading data-size='sm'>Prøvesvar</Heading>
+            <Heading >Prøvesvar</Heading>
             <Paragraph variant='long'>
               Most provide as with carried business are much better more the
               perfected designer. Writing slightly explain desk unable at the
@@ -81,7 +81,7 @@ export default function App() {
             </Paragraph>
           </Card>
           <Card className='healthCard'>
-            <Heading data-size='sm'>Henvinsinger</Heading>
+            <Heading >Henvinsinger</Heading>
             <Paragraph variant='long'>
               Most provide as with carried business are much better more the
               perfected designer. Writing slightly explain desk unable at the
@@ -92,10 +92,10 @@ export default function App() {
 
         <ImageSection flipped>
           <ImageSection.Left>
-            <Tag data-size='md' className='mb-8'>
+            <Tag className='mb-8'>
               Helse
             </Tag>
-            <Heading data-size='md' className='mb-8'>
+            <Heading className='mb-8'>
               Vi tar helsen din på alvor
             </Heading>
             <Paragraph variant='long'>
@@ -119,10 +119,10 @@ export default function App() {
           </ImageSection.Right>
         </ImageSection>
 
-        <Footer>
+        <Footer data-color-scheme='dark'>
           <Footer.Column>
             <Logo />
-            <Paragraph data-size='sm' variant='long'>
+            <Paragraph variant='long'>
               Fresh could written, of by self-interest, working strained her
               what my he travelling treble-range said a with a language be stand
               food, in joke. Wonder blue been way, up legs everyday.

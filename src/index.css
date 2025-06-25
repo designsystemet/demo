@@ -12,6 +12,30 @@
 body {
   background: var(--ds-color-surface-default);
   color: var(--ds-color-text-default);
+
+  /* Declare without units so we can compute the slope */
+  --min-vw: 414;
+  --max-vw: 768;
+  --min-font-size: 14;
+  --max-font-size: 24;
+
+  /* m = (y2 - y1) / (x2 - x1)  */
+  --rise: calc(var(--max-font-size) - var(--min-font-size));
+  --run: calc(var(--max-vw) - var(--min-vw));
+  --slope: calc(var(--rise) / var(--run));
+
+  /* Due to the way addition and subtraction works in calc(), we need to
+    "type cast" --min-vw and --min-h1-font-size to appropriate units */
+  --min-vw-px: calc(var(--min-vw) * 1px);
+  --min-font-size-px: calc(var(--min-font-size) * 1px);
+
+  /* y - y1 = m(x - x1) */
+  --fluid-font-size-px: calc(var(--slope) * (100vw - var(--min-vw-px)) + var(--min-font-size-px));
+
+  /* "Type cast" --max-vw to px */
+  --max-font-size-px: calc(var(--max-font-size) * 1px);
+
+  font-size: clamp(var(--min-font-size-px), var(--fluid-font-size-px), var(--max-font-size-px));
 }
 
 .container {
