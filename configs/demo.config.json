@@ -1,6 +1,5 @@
 {
   "$schema": "../node_modules/@digdir/designsystemet/dist/config.schema.json",
-  "clean": true,
   "themes": {
     "demo": {
       "colors": {
