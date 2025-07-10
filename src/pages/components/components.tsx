@@ -9,7 +9,7 @@ import {
     Heading,
     Paragraph
 } from '@digdir/designsystemet-react';
-import classes from './AllComponents.module.css';
+import classes from './components.module.css';
 
 export const Components = () => {
     return (
