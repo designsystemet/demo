@@ -10,6 +10,7 @@
 }
 
 body {
+  margin: 0;
   background: var(--ds-color-surface-default);
   color: var(--ds-color-text-default);
 
