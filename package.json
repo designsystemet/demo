@@ -14,10 +14,10 @@
 	},
 	"dependencies": {
 		"@biomejs/biome": "^2.1.1",
-		"@digdir/designsystemet": "^0.0.0-test-20250710064944",
-		"@digdir/designsystemet-css": "^0.0.0-test-20250710064944",
-		"@digdir/designsystemet-react": "^0.0.0-test-20250710064944",
-		"@digdir/designsystemet-theme": "^0.0.0-test-20250710064944",
+		"@digdir/designsystemet": "^0.0.0-test-20250710104203",
+		"@digdir/designsystemet-css": "^0.0.0-test-20250710104203",
+		"@digdir/designsystemet-react": "^0.0.0-test-20250710104203",
+		"@digdir/designsystemet-theme": "^0.0.0-test-20250710104203",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
 		"react-router-dom": "^7.3.0"
