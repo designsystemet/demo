@@ -1,3 +1,4 @@
+import type { JSX } from 'react';
 import classes from './ContactItem.module.css';
 
 type ContactItemProps = {
