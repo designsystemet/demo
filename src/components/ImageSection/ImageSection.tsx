@@ -1,5 +1,5 @@
-import cl from "clsx/lite";
-import classes from "./ImageSection.module.css";
+import cl from 'clsx/lite';
+import classes from './ImageSection.module.css';
 
 export const ImageSection = ({
   children,
@@ -14,8 +14,8 @@ export const ImageSection = ({
       <div
         className={cl(
           classes.sectionContainer,
-          "container",
-          flipped && classes.flipped
+          'container',
+          flipped && classes.flipped,
         )}
       >
         {children}

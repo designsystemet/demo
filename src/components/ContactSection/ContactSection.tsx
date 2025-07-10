@@ -1,4 +1,4 @@
-import classes from "./ContactSection.module.css";
+import classes from './ContactSection.module.css';
 
 export const ContactSection = ({
   children,

@@ -20,15 +20,15 @@
   flex: 0 1 45%;
 }
 
-[data-color="extra1"].contactSection {
+[data-color='extra1'].contactSection {
   background-color: var(--ds-color-extra1-background-tinted);
 }
-[data-color="extra2"].contactSection {
+[data-color='extra2'].contactSection {
   background-color: var(--ds-color-extra2-background-tinted);
 }
-[data-color="accent"].contactSection {
+[data-color='accent'].contactSection {
   background-color: var(--ds-color-accent-background-tinted);
 }
-[data-color="primary"].contactSection {
+[data-color='primary'].contactSection {
   background-color: var(--ds-color-primary-background-tinted);
 }

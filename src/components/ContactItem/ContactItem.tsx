@@ -1,4 +1,4 @@
-import classes from "./ContactItem.module.css";
+import classes from './ContactItem.module.css';
 
 type ContactItemProps = {
   text: string;

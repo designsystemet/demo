@@ -25,7 +25,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
     "types": [
-      "./design-tokens-build/colors.d.ts",
+      // "./design-tokens-build/colors.d.ts",
       "@digdir/designsystemet-react/react-types",
     ],
   },

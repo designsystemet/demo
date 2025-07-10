@@ -1,7 +1,11 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
-  "organizeImports": {
-    "enabled": true
+  "$schema": "https://biomejs.dev/schemas/2.1.1/schema.json",
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
   },
   "vcs": {
     "enabled": true,
@@ -10,25 +14,69 @@
   },
   "files": {
     "ignoreUnknown": true,
-    "ignore": [
-      ".vscode/**",
-      ".github/**",
-      ".changeset/**",
-      "./package.json", // yarn and biome disagrees on package.json formatting
-      "design-tokens/**/*",
-      "apps/storefront/tokens/**",
-      "**/dist/**/*",
-      "packages/theme/**/*.css",
-      "**/tsconfig.*.json" // https://github.com/biomejs/biome/issues/1151
+    "includes": [
+      "**/*",
+      "!**/.vscode/**",
+      "!**/.github/**",
+      "!**/.changeset/**",
+      "!**/design-tokens/**/*",
+      "!**/dist/**/*",
+      "!**/packages/theme/**/*.css",
+      "!**/tsconfig.*.json", // https://github.com/biomejs/biome/issues/1151
+      "!**/.react-router/**",
+      "!**/package.json", // changeset wants the files to be formatted differently
+      "!**/colors.d.ts" // Ignore empty import for now
     ]
   },
   "formatter": {
     "enabled": true,
+    "includes": ["**/*"],
     "formatWithErrors": true,
     "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
     "lineWidth": 80
+  },
+  "linter": {
+    "enabled": true,
+    "includes": ["**/*"],
+    "rules": {
+      "nursery": {
+        "useUniqueElementIds": "off"
+      },
+      "recommended": true,
+      "a11y": {
+        "noNoninteractiveElementToInteractiveRole": "off",
+        "useValidAnchor": "off",
+        "useButtonType": "off",
+        "useValidAriaRole": "off",
+        "useValidAriaValues": "off",
+        "useMediaCaption": "off",
+        "useKeyWithClickEvents": "off",
+        "noNoninteractiveTabindex": "off",
+        "useAriaPropsForRole": "off"
+      },
+      "correctness": {
+        "useExhaustiveDependencies": "off",
+        "noUnusedImports": "error"
+      },
+      "style": {
+        "useTemplate": "off",
+        "noUnusedTemplateLiteral": "off",
+        "noParameterAssign": "off",
+        "useNumberNamespace": "off",
+        "useSelfClosingElements": "off",
+        "useAsConstAssertion": "error",
+        "useDefaultParameterLast": "error",
+        "useEnumInitializers": "error",
+        "useSingleVarDeclarator": "error",
+        "noInferrableTypes": "error",
+        "noUselessElse": "error"
+      },
+      "suspicious": {
+        "noArrayIndexKey": "off"
+      }
+    }
   },
   "javascript": {
     "globals": [
@@ -52,42 +100,12 @@
       "quoteStyle": "single"
     }
   },
-  "linter": {
-    "enabled": true,
-    "rules": {
-      "recommended": true,
-      "a11y": {
-        "noNoninteractiveElementToInteractiveRole": "off",
-        "useValidAnchor": "off",
-        "useButtonType": "off",
-        "useValidAriaRole": "off",
-        "useValidAriaValues": "off",
-        "useMediaCaption": "off",
-        "useKeyWithClickEvents": "off",
-        "noNoninteractiveTabindex": "off",
-        "useAriaPropsForRole": "off"
-      },
-      "correctness": {
-        "useExhaustiveDependencies": "off",
-        "noUnusedImports": "error"
-      },
-      "style": {
-        "useTemplate": "off",
-        "noUnusedTemplateLiteral": "off",
-        "noParameterAssign": "off",
-        "useNumberNamespace": "off",
-        "useSelfClosingElements": "off"
-      },
-      "suspicious": {
-        "noArrayIndexKey": "off"
-      }
-    },
-    "ignore": []
+  "json": {
+    "formatter": {
+      "enabled": true
+    }
   },
   "css": {
-    "parser": {
-      "cssModules": true
-    },
     "formatter": {
       "enabled": true,
       "quoteStyle": "single"
@@ -95,27 +113,26 @@
   },
   "overrides": [
     {
-      "include": [
-        "**/*.css"
-      ],
+      "includes": ["**/*.css"],
       "formatter": {
         "lineWidth": 160
+      },
+      "linter": {
+        "rules": {
+          "style": {
+            "noDescendingSpecificity": "off"
+          }
+        }
       }
     },
     {
-      "include": [
-        "**/packages/cli/**/*.ts"
-      ],
+      "includes": ["**/packages/cli/**/*.ts"],
       "formatter": {
         "lineWidth": 120
       }
     },
     {
-      "include": [
-        "**/apps/_components/**",
-        "**/apps/storefront/**",
-        "**/apps/theme/**"
-      ],
+      "includes": ["**/apps/_components/**", "**/apps/theme/**"],
       "linter": {
         "rules": {
           "a11y": {

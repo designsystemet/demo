@@ -1,6 +1,6 @@
-import classes from "./CardSection.module.css";
-import { Heading } from "@digdir/designsystemet-react";
-import cl from "clsx/lite";
+import { Heading } from '@digdir/designsystemet-react';
+import cl from 'clsx/lite';
+import classes from './CardSection.module.css';
 
 type CardSectionProps = {
   title: string;
@@ -16,8 +16,8 @@ export const CardSection = ({
 }: CardSectionProps) => {
   return (
     <section className={cl(classes.cardSection)} {...props}>
-      <div className="container">
-        <Heading data-size="md" className={centered ? classes.centered : ""}>
+      <div className='container'>
+        <Heading data-size='md' className={centered ? classes.centered : ''}>
           {title}
         </Heading>
         <div className={classes.content}>{children}</div>
