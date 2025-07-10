@@ -1,4 +1,4 @@
-import { List } from '@digdir/designsystemet-react';
+import { List } from "@digdir/designsystemet-react";
 
 function ListSample() {
   return (
@@ -10,17 +10,14 @@ function ListSample() {
       </List.Unordered>
       <List.Ordered>
         <List.Item>
-          Tørk over kyllingfiletene før du krydrer og steker. Dette vil gi en
-          finere stekeskorpe på kjøttet. Ikke bruk kjøkkenpapir som loer.
-          Papirbiter i maten er ikke noe særlig.
+          Tørk over kyllingfiletene før du krydrer og steker.
         </List.Item>
         <List.Item>
           Ha salt og pepper på filetene og eventuelt annet krydder for ekstra
-          smak. Hvitløkpepper, paprika eller provence kan gi en god smak!
+          smak.
         </List.Item>
         <List.Item>
-          Stek filetene på sterk varme i to minutter på hver side. Sett deretter
-          på lokk og stek videre på svak varme i syv minutter på hver side.
+          Stek filetene på sterk varme i to minutter på hver side.
         </List.Item>
       </List.Ordered>
     </>
