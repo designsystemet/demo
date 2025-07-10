@@ -42,3 +42,14 @@ body {
   max-width: 1300px;
   margin: 0 auto;
 }
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: var(--ds-size-4);
+  flex-wrap: wrap;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-size-4);
+}
