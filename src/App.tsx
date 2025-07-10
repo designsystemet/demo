@@ -1,5 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom';
-import { AllComponents, ClimatePage, DigdirPage, HealthPage } from './pages';
+import { ClimatePage, Components, DigdirPage, HealthPage } from './pages';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Route path='digdir' element={<DigdirPage />} />
         <Route path='climate' element={<ClimatePage />} />
         <Route path='health' element={<HealthPage />} />
-        <Route path='components' element={<AllComponents />} />
+        <Route path='components' element={<Components />} />
       </Routes>
     </div>
   );

@@ -11,7 +11,7 @@ import {
 } from '@digdir/designsystemet-react';
 import classes from './AllComponents.module.css';
 
-export const AllComponents = () => {
+export const Components = () => {
     return (
         <div className={classes.container}>
             <div id="alert" className={classes.container}>
