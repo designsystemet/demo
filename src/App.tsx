@@ -1,5 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom';
-import { ClimatePage, DigdirPage, HealthPage } from './pages';
+import { AllComponents, ClimatePage, DigdirPage, HealthPage } from './pages';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <Route path='digdir' element={<DigdirPage />} />
         <Route path='climate' element={<ClimatePage />} />
         <Route path='health' element={<HealthPage />} />
+        <Route path='components' element={<AllComponents />} />
       </Routes>
     </div>
   );
@@ -28,6 +29,9 @@ const NavPage = () => {
         </li>
         <li>
           <Link to='/health'>Health</Link>
+        </li>
+        <li>
+          <Link to='/components'>Components</Link>
         </li>
       </ul>
     </div>
