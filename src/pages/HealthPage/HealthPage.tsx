@@ -1,4 +1,4 @@
-import './HealthPage.css';
+import './HealthPage.module.css';
 
 import {
   Button,
