@@ -16,7 +16,7 @@
     "primitives/modes/color-scheme/light/demo",
     "themes/demo",
     "semantic/color",
-    "semantic/modes/main-color/hoved",
+    "semantic/modes/main-color/primary",
     "semantic/modes/main-color/accent",
     "semantic/modes/support-color/extra1",
     "semantic/modes/support-color/extra2",

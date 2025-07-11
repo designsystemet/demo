@@ -1,4 +1,4 @@
-import './ClimatePage.css';
+import './ClimatePage.module.css';
 
 import {
   Button,

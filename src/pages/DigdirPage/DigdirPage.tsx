@@ -1,4 +1,4 @@
-import './DigdirPage.css';
+import './DigdirPage.module.css';
 
 import {
   Card,

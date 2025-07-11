@@ -1,69 +1,69 @@
 {
   "color": {
-    "hoved": {
+    "primary": {
       "1": {
         "$type": "color",
-        "$value": "{demo.hoved.1}"
+        "$value": "{demo.primary.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{demo.hoved.2}"
+        "$value": "{demo.primary.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{demo.hoved.3}"
+        "$value": "{demo.primary.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{demo.hoved.4}"
+        "$value": "{demo.primary.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{demo.hoved.5}"
+        "$value": "{demo.primary.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{demo.hoved.6}"
+        "$value": "{demo.primary.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{demo.hoved.7}"
+        "$value": "{demo.primary.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{demo.hoved.8}"
+        "$value": "{demo.primary.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{demo.hoved.9}"
+        "$value": "{demo.primary.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{demo.hoved.10}"
+        "$value": "{demo.primary.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{demo.hoved.11}"
+        "$value": "{demo.primary.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{demo.hoved.12}"
+        "$value": "{demo.primary.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{demo.hoved.13}"
+        "$value": "{demo.primary.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{demo.hoved.14}"
+        "$value": "{demo.primary.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{demo.hoved.15}"
+        "$value": "{demo.primary.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{demo.hoved.16}"
+        "$value": "{demo.primary.16}"
       }
     },
     "accent": {
