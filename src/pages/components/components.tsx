@@ -6,15 +6,23 @@ import {
   ToggleGroup,
 } from "@digdir/designsystemet-react";
 import { useState } from "react";
+import themeConfig from "../../../configs/demo.config.json";
 import classes from "./components.module.css";
 import * as samples from "./samples/";
 
 const sizes: Size[] = ["sm", "md", "lg"];
 const colorModes = ["light", "dark", "auto"];
+const colors = [
+  ...Object.keys(themeConfig.themes.demo.colors.main),
+  ...Object.keys(themeConfig.themes.demo.colors.support),
+  'neutral',
+];
+
 
 export const Components = () => {
   const [size, setSize] = useState<Size>("sm");
   const [colorMode, setColorMode] = useState("auto");
+  const [color, setColor] = useState("neutral");
   return (
     <>
       <div className={classes.container} data-size="sm">
@@ -44,11 +52,25 @@ export const Components = () => {
             ))}
           </ToggleGroup>
         </Fieldset>
+        <Fieldset>
+          <Fieldset.Legend>
+            Farge
+            <code data-size="xs">(data-color)</code>
+          </Fieldset.Legend>
+          <ToggleGroup value={color} onChange={setColor}>
+            {colors.map((color) => (
+              <ToggleGroup.Item key={color} value={color}>
+                {color}
+              </ToggleGroup.Item>
+            ))}
+          </ToggleGroup>
+        </Fieldset>
       </div>
       <div
         className={classes.container}
         data-size={size}
         data-color-scheme={colorMode}
+        data-color={color}
       >
         {Object.entries(samples).map(([name, Component]) => {
           if (typeof Component === "function") {

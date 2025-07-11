@@ -4,7 +4,7 @@
     "demo": {
       "colors": {
         "main": {
-          "primary": "#4554a1",
+          "hoved": "#4554a1",
           "accent": "#51abf0"
         },
         "support": {

@@ -1,6 +1,6 @@
 {
   "demo": {
-    "primary": {
+    "hoved": {
       "1": {
         "$type": "color",
         "$value": "#ffffff"
