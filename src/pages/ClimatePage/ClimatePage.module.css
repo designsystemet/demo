@@ -10,11 +10,6 @@
   object-fit: cover;
 }
 
-.ds-button {
-  padding-left: 18px;
-  padding-right: 18px;
-}
-
 .tags {
   display: flex;
   gap: var(--ds-size-4);
