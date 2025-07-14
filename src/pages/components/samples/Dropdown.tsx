@@ -26,7 +26,7 @@ function DropdownSample() {
           </Dropdown.List>
         </Dropdown>
       </Dropdown.TriggerContext>
-      <Button popoverTarget='dropdown'>Dropdown(popovertarget)</Button>
+      <Button popovertarget='dropdown'>Dropdown(popovertarget)</Button>
       <Dropdown id='dropdown'>
         <Dropdown.List>
           <Dropdown.Item>
