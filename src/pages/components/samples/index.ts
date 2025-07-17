@@ -23,6 +23,7 @@ export * from './Select';
 export * from './SkipLink';
 export * from './Suggestion';
 export * from './Table';
+export * from './TableNotCompound';
 export * from './Tabs';
 export * from './Tag';
 export * from './Textarea';
