@@ -137,7 +137,7 @@
   "opacity": {
     "30": {
       "$type": "opacity",
-      "$value": "30%"
+      "$value": "20%"
     }
   }
 }
