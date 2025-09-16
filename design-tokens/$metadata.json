@@ -20,7 +20,6 @@
     "semantic/modes/main-color/accent",
     "semantic/modes/support-color/extra1",
     "semantic/modes/support-color/extra2",
-    "semantic/style",
-    "$designsystemet"
+    "semantic/style"
   ]
 }
