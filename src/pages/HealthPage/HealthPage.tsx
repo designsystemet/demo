@@ -21,7 +21,7 @@ import {
 
 export default function App() {
   return (
-    <div className='app' data-color='extra1' data-color-scheme=''>
+    <div className='app' data-color='extra1' data-color-scheme='light'>
       <Header icon={<DoctorIcon />}>
         <Heading level={1}>Helsen din er viktig</Heading>
         <Paragraph variant='long'>
@@ -30,12 +30,12 @@ export default function App() {
           fact, people text finds intended not could
         </Paragraph>
         <div>
-          <Button data-color='danger'>Bestill legetime</Button>
+          <Button data-color='primary'>Bestill legetime</Button>
         </div>
       </Header>
 
       <CardSection title='Hva kan vi hjelpe deg med i dag?'>
-        <Card className='healthCard'>
+        <Card className='healthCard' variant="tinted" data-color="extra2">
           <Heading>Bytt fastlege</Heading>
           <Paragraph variant='long'>
             Most provide as with carried business are much better more the
@@ -43,7 +43,7 @@ export default function App() {
             thing to be and also therefore the will
           </Paragraph>
         </Card>
-        <Card className='healthCard'>
+        <Card className='healthCard' variant="tinted" data-color="extra2">
           <Heading>Pasientjournal</Heading>
           <Paragraph variant='long'>
             Most provide as with carried business are much better more the
@@ -51,7 +51,7 @@ export default function App() {
             thing to be and also therefore the will
           </Paragraph>
         </Card>
-        <Card className='healthCard'>
+        <Card className='healthCard' variant="tinted" data-color="extra2">
           <Heading>Vaksiner</Heading>
           <Paragraph variant='long'>
             Most provide as with carried business are much better more the
@@ -59,7 +59,7 @@ export default function App() {
             thing to be and also therefore the will
           </Paragraph>
         </Card>
-        <Card className='healthCard'>
+        <Card className='healthCard' variant="tinted" data-color="extra2">
           <Heading>Resepter</Heading>
           <Paragraph variant='long'>
             Most provide as with carried business are much better more the
@@ -67,7 +67,7 @@ export default function App() {
             thing to be and also therefore the will
           </Paragraph>
         </Card>
-        <Card className='healthCard'>
+        <Card className='healthCard' variant="tinted" data-color="extra2">
           <Heading>Prøvesvar</Heading>
           <Paragraph variant='long'>
             Most provide as with carried business are much better more the
@@ -75,7 +75,7 @@ export default function App() {
             thing to be and also therefore the will
           </Paragraph>
         </Card>
-        <Card className='healthCard'>
+        <Card className='healthCard' variant="tinted" data-color="extra2">
           <Heading>Henvinsinger</Heading>
           <Paragraph variant='long'>
             Most provide as with carried business are much better more the
