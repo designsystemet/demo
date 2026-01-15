@@ -1,8 +1,8 @@
-/* build: v1.5.0 */
-import type {} from '@digdir/designsystemet/types';
+/* build: v0.0.0-react-side-effects-20260113071010 */
+import type {} from '@digdir/designsystemet-types';
 
 // Augment types based on theme
-declare module '@digdir/designsystemet/types' {
+declare module '@digdir/designsystemet-types' {
   export interface ColorDefinitions {
     primary: never;
     accent: never;
